@@ -1,0 +1,2444 @@
+{
+  "schemaVersion": 1,
+  "eventId": "asakusa-ishifurima-2026-11",
+  "title": "浅草石フリマ マイマップ",
+  "subtitle": "2026年11月20日（金）・21日（土）｜台東館4階・5階",
+  "dates": {
+    "fri": {
+      "date": "2026-11-20",
+      "label": "11/20（金）"
+    },
+    "sat": {
+      "date": "2026-11-21",
+      "label": "11/21（土）"
+    }
+  },
+  "shops": {
+    "sat": [
+      {
+        "name": "Archaelio cottage",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-17・18"
+      },
+      {
+        "name": "あいすクライマー",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "O-19・20"
+      },
+      {
+        "name": "青赤 Aoaka Stone & Craft",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-08"
+      },
+      {
+        "name": "赤穂鉱物化石コレクション",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "Q-23・24"
+      },
+      {
+        "name": "アサノハ鉱物店",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "G-09・10"
+      },
+      {
+        "name": "アトリエ月光 ～gecko～",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-16"
+      },
+      {
+        "name": "アトリエ コトブキヤ",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "Q-03・04"
+      },
+      {
+        "name": "アトリエ・ソラ",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "Q-11・12"
+      },
+      {
+        "name": "Atelier Mar Gems",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-15・16"
+      },
+      {
+        "name": "ANAM gems",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "J-55・56"
+      },
+      {
+        "name": "アニ",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "G-01～04"
+      },
+      {
+        "name": "アマカラ堂",
+        "floor": 4,
+        "category": "その他",
+        "booth": "A-51・52"
+      },
+      {
+        "name": "ARMEE GEM",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-19～22"
+      },
+      {
+        "name": "American Minerals",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-01・02"
+      },
+      {
+        "name": "ALOHA MINERALS",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-13～16"
+      },
+      {
+        "name": "石小屋出張所(津軽錦石)",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "O-03・04"
+      },
+      {
+        "name": "I.S.D.Y",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "O-09・10"
+      },
+      {
+        "name": "石と君と",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-35"
+      },
+      {
+        "name": "いしぱら",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-13～16"
+      },
+      {
+        "name": "石部",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "P-07・08"
+      },
+      {
+        "name": "石ムグリ",
+        "floor": 4,
+        "category": "その他",
+        "booth": "A-46"
+      },
+      {
+        "name": "色石工房",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "I-05～08"
+      },
+      {
+        "name": "インディゴブルー",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "A-79・80"
+      },
+      {
+        "name": "OPAL DOWNUNDER TAKI",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "J-25～28"
+      },
+      {
+        "name": "オパールの森",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "G-19・20"
+      },
+      {
+        "name": "objet",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "O-07・08"
+      },
+      {
+        "name": "風旅結晶",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-33・34"
+      },
+      {
+        "name": "カッパとヒラメとFuruta",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "M-13・14"
+      },
+      {
+        "name": "金森貿易",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "J-49・50"
+      },
+      {
+        "name": "架杜～kanoto～",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "J-75・76"
+      },
+      {
+        "name": "瓦楽多雑貨店",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "M-18"
+      },
+      {
+        "name": "cute stone",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-01～04"
+      },
+      {
+        "name": "今日の研磨さん",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-09・10"
+      },
+      {
+        "name": "空想鉱物工作所",
+        "floor": 4,
+        "category": "その他",
+        "booth": "A-49・50"
+      },
+      {
+        "name": "◇孔雀屋◇",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-11・12"
+      },
+      {
+        "name": "Grandir",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-05・06"
+      },
+      {
+        "name": "Crazy Stone・Peony Crystal",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "R-01～04"
+      },
+      {
+        "name": "Crane Lapidary",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "Q-09・10"
+      },
+      {
+        "name": "黒猫の石屋さん",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "O-18"
+      },
+      {
+        "name": "KOUSHUYA",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-11～14"
+      },
+      {
+        "name": "神津オブシディアンラボ",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-17"
+      },
+      {
+        "name": "国産鉱物カタログ",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-15"
+      },
+      {
+        "name": "個人コレクション放出",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-20"
+      },
+      {
+        "name": "後藤商事",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-01・02"
+      },
+      {
+        "name": "Gems R+",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-03・04"
+      },
+      {
+        "name": "GEMS PLANET",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-05・06"
+      },
+      {
+        "name": "Sierrarium",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "M-19・20"
+      },
+      {
+        "name": "四季Minerals",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "Q-07・08"
+      },
+      {
+        "name": "自然遊撃隊",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-01・02"
+      },
+      {
+        "name": "June Lily",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "Q-22"
+      },
+      {
+        "name": "小玉標本室",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "J-73・74"
+      },
+      {
+        "name": "鈴木屋byJOA",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "A-65～68"
+      },
+      {
+        "name": "stoneage",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "Q-15・16"
+      },
+      {
+        "name": "STONE STYLE",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-36"
+      },
+      {
+        "name": "Stone Holic",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-17"
+      },
+      {
+        "name": "sage crystal",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-06"
+      },
+      {
+        "name": "セージ工房",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-17"
+      },
+      {
+        "name": "石華工匠",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-09・10"
+      },
+      {
+        "name": "大地の華",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-20"
+      },
+      {
+        "name": "TAK Collection",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "J-71・72"
+      },
+      {
+        "name": "TASKの鉱物棚",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-13・14"
+      },
+      {
+        "name": "旅石",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-03・04"
+      },
+      {
+        "name": "たびねこ工房",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-07・08"
+      },
+      {
+        "name": "Cha's room(ちゃずるーむ)",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-11～14"
+      },
+      {
+        "name": "つぐこみねらるず",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-31・32"
+      },
+      {
+        "name": "ティアラクラウン",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-07"
+      },
+      {
+        "name": "東京大学地文研究会地質部",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-11・12"
+      },
+      {
+        "name": "中嶋靖雄",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-18"
+      },
+      {
+        "name": "ニライカナイ",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-17・18"
+      },
+      {
+        "name": "ねこや",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "J-59～62"
+      },
+      {
+        "name": "NO JADE NO JADE",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-05・06"
+      },
+      {
+        "name": "HAL MINERALS",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "J-65・66"
+      },
+      {
+        "name": "PK Mineral Collactions",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-09・10"
+      },
+      {
+        "name": "光る石の分光解析研究会",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-07・08"
+      },
+      {
+        "name": "ひよこまこと天然石",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-15・16"
+      },
+      {
+        "name": "Faithful Crystals",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-19・20"
+      },
+      {
+        "name": "FAVORMINERAL",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-25～30"
+      },
+      {
+        "name": "葡萄屋",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-09～12"
+      },
+      {
+        "name": "へし屋",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "J-69・70"
+      },
+      {
+        "name": "ほたるいし屋",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-07・08"
+      },
+      {
+        "name": "ポジこハウス",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "O-01・02"
+      },
+      {
+        "name": "ポテト&ペンギン",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "O-06"
+      },
+      {
+        "name": "まるまる堂",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-37・38"
+      },
+      {
+        "name": "三日月Stone",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-19"
+      },
+      {
+        "name": "Mineral Journey",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-05"
+      },
+      {
+        "name": "Mineral Hunter's Diary",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-03・04"
+      },
+      {
+        "name": "ムギの標本箱",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "Q-21"
+      },
+      {
+        "name": "メタルと石",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-05"
+      },
+      {
+        "name": "瑪瑙売り",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "O-15・16"
+      },
+      {
+        "name": "山川",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-21・22"
+      },
+      {
+        "name": "宵暁",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "O-05"
+      },
+      {
+        "name": "よしけい",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-17・18"
+      },
+      {
+        "name": "よっしー",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "J-63・64"
+      },
+      {
+        "name": "ららら",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-23・24"
+      },
+      {
+        "name": "Lien",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "Q-05・06"
+      },
+      {
+        "name": "RIKO",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-07・08"
+      },
+      {
+        "name": "Lithos Graphics",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "O-11～14"
+      },
+      {
+        "name": "LEGACY MINERALS",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "Q-19・20"
+      },
+      {
+        "name": "Rock crystalの鉱物屋さん",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "Q-01・02"
+      },
+      {
+        "name": "wanoya",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "Q-17・18"
+      },
+      {
+        "name": "Wan photography",
+        "floor": 4,
+        "category": "その他",
+        "booth": "A-54"
+      },
+      {
+        "name": "わがまま猫と愉快な仲間たち",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-79～82"
+      },
+      {
+        "name": "One Loose",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "J-23・24"
+      },
+      {
+        "name": "銀と天然石 HALAKA",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "M-11・12"
+      },
+      {
+        "name": "魔女と商人の宝石店",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-09・10"
+      },
+      {
+        "name": "魔女の森へようこそ！",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "N-07"
+      },
+      {
+        "name": "BERYL BOOKS",
+        "floor": 4,
+        "category": "その他",
+        "booth": "A-47・48"
+      },
+      {
+        "name": "よろずもん",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "N-04"
+      },
+      {
+        "name": "にゃんこてぃーるーむ",
+        "floor": 4,
+        "category": "飲食",
+        "booth": "01～04"
+      },
+      {
+        "name": "アンダラクリスタル・ミュゼ",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-01・02"
+      },
+      {
+        "name": "eArth+stOne/三幸物産㈱",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "G-05・06"
+      },
+      {
+        "name": "I.K Gems",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "I-15・16"
+      },
+      {
+        "name": "あおいかえる",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "N-18"
+      },
+      {
+        "name": "At",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "M-05"
+      },
+      {
+        "name": "Atelier koharu",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-07"
+      },
+      {
+        "name": "あまなつ",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "L-07"
+      },
+      {
+        "name": "AMIHA",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "L-08"
+      },
+      {
+        "name": "amunlapo",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "A-77・78"
+      },
+      {
+        "name": "ARU'S",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-24"
+      },
+      {
+        "name": "ultimate",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-11"
+      },
+      {
+        "name": "石好き美保さん",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-19・20"
+      },
+      {
+        "name": "ishala",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-19・20"
+      },
+      {
+        "name": "石結屋",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "P-05"
+      },
+      {
+        "name": "板墨屋",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "P-09"
+      },
+      {
+        "name": "Ichiha Macrame Accessory",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-17"
+      },
+      {
+        "name": "いぬモチレザークラフト",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-17"
+      },
+      {
+        "name": "ironna-ki",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-05・06"
+      },
+      {
+        "name": "INTOP GEMS",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "P-15"
+      },
+      {
+        "name": "WisteriaJewelry",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-13～16"
+      },
+      {
+        "name": "ういのおくやま",
+        "floor": 4,
+        "category": "その他",
+        "booth": "A-55"
+      },
+      {
+        "name": "esplendor.",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "L-06"
+      },
+      {
+        "name": "ENERGEIA",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-01・02"
+      },
+      {
+        "name": "enoguya",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-22"
+      },
+      {
+        "name": "MYコレクション",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "J-38"
+      },
+      {
+        "name": "OAKNOKI JEWELRY",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-11・12"
+      },
+      {
+        "name": "AUREX STONE",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-11"
+      },
+      {
+        "name": "おさかなや",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "M-06"
+      },
+      {
+        "name": "Opal Hunter",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "N-01・02"
+      },
+      {
+        "name": "Olive-Blender Jewels",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "P-16"
+      },
+      {
+        "name": "貝のお店HAPPYMARIN",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "G-11・12"
+      },
+      {
+        "name": "火山＆てんてん石のみせ",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "J-77・78"
+      },
+      {
+        "name": "叶斗",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-07・08"
+      },
+      {
+        "name": "（株）HPS",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-03・04"
+      },
+      {
+        "name": "カラーストーン イシルディン",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "R-11・12"
+      },
+      {
+        "name": "Caricia",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "L-03・04"
+      },
+      {
+        "name": "かわいい石や",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "R-08"
+      },
+      {
+        "name": "Chianola",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "L-16"
+      },
+      {
+        "name": "9_R/Lock-1",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "N-19"
+      },
+      {
+        "name": "きらり＆USHIQ",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "L-13・14"
+      },
+      {
+        "name": "kirico",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "R-07"
+      },
+      {
+        "name": "銀ぎんや音",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "L-09"
+      },
+      {
+        "name": "草色の翡翠堂",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "N-08"
+      },
+      {
+        "name": "KuroB Candle",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-18"
+      },
+      {
+        "name": "Ki jewelry",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "J-51・52"
+      },
+      {
+        "name": "Kentaro Chiva Photography",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-19"
+      },
+      {
+        "name": "KOSAI",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "R-15・16"
+      },
+      {
+        "name": "香房エメラルドカフェ",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "P-11・12"
+      },
+      {
+        "name": "工房　銀の風",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-01・02"
+      },
+      {
+        "name": "工房terue",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-09・10"
+      },
+      {
+        "name": "こころがときめく宝石の魔法",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "R-18"
+      },
+      {
+        "name": "こざとや",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "J-57・58"
+      },
+      {
+        "name": "cozmic Lion",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "J-43・44"
+      },
+      {
+        "name": "kokkoku",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "J-33・34"
+      },
+      {
+        "name": "Kotsukotsu no Te",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-03・04"
+      },
+      {
+        "name": "木花野神社",
+        "floor": 4,
+        "category": "その他",
+        "booth": "A-53"
+      },
+      {
+        "name": "コバヒ屋玉髄堂",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-18"
+      },
+      {
+        "name": "colemoeto",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "N-13・14"
+      },
+      {
+        "name": "ころころぐりんと",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "N-16"
+      },
+      {
+        "name": "coronblan",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "N-15"
+      },
+      {
+        "name": "彩ジュエリー",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-23・24"
+      },
+      {
+        "name": "澤矢商事",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "J-29～32"
+      },
+      {
+        "name": "サンズイ+IchIshi",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "J-67・68"
+      },
+      {
+        "name": "scintillétoile(サンティエ)",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "G-13・14"
+      },
+      {
+        "name": "GEE WHIZ COMPANY LIMITED",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-03・04"
+      },
+      {
+        "name": "J5M",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-39・40"
+      },
+      {
+        "name": "gemstoneKASHIKO",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-23"
+      },
+      {
+        "name": "ジェム☆虹のカケラ",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-18"
+      },
+      {
+        "name": "ジェムマックス",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-09・10"
+      },
+      {
+        "name": "ジェムY.O",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-09・10"
+      },
+      {
+        "name": "CIEL STONE",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "G-07・08"
+      },
+      {
+        "name": "しずかのうみ",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "M-08"
+      },
+      {
+        "name": "シズクジュエリー",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-18"
+      },
+      {
+        "name": "忍ばずの館",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "J-45～47"
+      },
+      {
+        "name": "ジャージーズ",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "R-17"
+      },
+      {
+        "name": "シリクリシュヌジェムス(株)",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "A-75・76"
+      },
+      {
+        "name": "詩央路",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "N-05"
+      },
+      {
+        "name": "真珠工房こゆか",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-07・08"
+      },
+      {
+        "name": "人生五十年",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "N-09"
+      },
+      {
+        "name": "真ちゃん本翡翠",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-05・06"
+      },
+      {
+        "name": "Su-Sya&モレウ工房",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-17・18"
+      },
+      {
+        "name": "スズノアトリエ",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "N-20"
+      },
+      {
+        "name": "スリランカジェムアンドジュエリー＆国産鉱物ガチャ",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-13・14"
+      },
+      {
+        "name": "千億のしずく",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "L-10"
+      },
+      {
+        "name": "創作ジュエリービレッジ",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "J-39～42"
+      },
+      {
+        "name": "空色くらげ",
+        "floor": 4,
+        "category": "その他",
+        "booth": "A-56"
+      },
+      {
+        "name": "diamond Keikoのへや",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-08"
+      },
+      {
+        "name": "タグボート",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "L-17"
+      },
+      {
+        "name": "たんざ屋",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "J-48"
+      },
+      {
+        "name": "ちくまや",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "P-19・20"
+      },
+      {
+        "name": "紐石屋",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "L-11・12"
+      },
+      {
+        "name": "月の輪工芸",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-12"
+      },
+      {
+        "name": "椿・mayumi",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-14"
+      },
+      {
+        "name": "天然石と雑貨Lillue",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-23・24"
+      },
+      {
+        "name": "天然石とレトロ雑貨のお店！ビルマミッション",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-11～14"
+      },
+      {
+        "name": "トイドロップ",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-19・20"
+      },
+      {
+        "name": "東京シャチホコ",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "R-09・10"
+      },
+      {
+        "name": "TOTO's",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "N-06"
+      },
+      {
+        "name": "DONATELLA",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "M-01・02"
+      },
+      {
+        "name": "Dream☆stone",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-01～04"
+      },
+      {
+        "name": "なないろは",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-20"
+      },
+      {
+        "name": "Narrative",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "L-20"
+      },
+      {
+        "name": "バイカラーの世界",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "R-13・14"
+      },
+      {
+        "name": "Happy Y-style",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "L-15"
+      },
+      {
+        "name": "hanalito",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "L-18"
+      },
+      {
+        "name": "パライバ沼の淵＆オカメ堂",
+        "floor": 4,
+        "category": "その他",
+        "booth": "A-41・42"
+      },
+      {
+        "name": "はるちぃ’s room",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "M-17"
+      },
+      {
+        "name": "パンダストーン商店",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "P-10"
+      },
+      {
+        "name": "PicGem",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "P-17"
+      },
+      {
+        "name": "piquer piquer",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "M-10"
+      },
+      {
+        "name": "bijoux de repos（るぽ）",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "A-69～74"
+      },
+      {
+        "name": "秘密の石屋",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "L-01・02"
+      },
+      {
+        "name": "pure*wire",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "N-11・12"
+      },
+      {
+        "name": "PINKTO",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "A-81・82"
+      },
+      {
+        "name": "fancygems",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-01～04"
+      },
+      {
+        "name": "Fairy Giselle",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-21・22"
+      },
+      {
+        "name": "Ferozah",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "A-63・64"
+      },
+      {
+        "name": "Forest",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-13"
+      },
+      {
+        "name": "FUJIMORI",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "J-53・54"
+      },
+      {
+        "name": "物欲＆れんまま",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "J-35～37"
+      },
+      {
+        "name": "PrimeJewelry",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "I-09・10"
+      },
+      {
+        "name": "Pretty Stone",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "P-18"
+      },
+      {
+        "name": "PlumeriaGem&Beatrice",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "R-20"
+      },
+      {
+        "name": "Freuden Schmuck",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-15・16"
+      },
+      {
+        "name": "*蛇苺*",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-08"
+      },
+      {
+        "name": "宝石輝くルースケースのQole × TrustGem",
+        "floor": 4,
+        "category": "その他",
+        "booth": "A-45"
+      },
+      {
+        "name": "ほるすの秘密基地",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "M-09"
+      },
+      {
+        "name": "Porte Bonheur S",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "M-15・16"
+      },
+      {
+        "name": "まあさ's shop",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-06"
+      },
+      {
+        "name": "まいこの宝石箱with violas",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "O-17"
+      },
+      {
+        "name": "マクラメ栄斗&kinonsh",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-19・20"
+      },
+      {
+        "name": "Macrame Kohen",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "N-03"
+      },
+      {
+        "name": "マクラメまるこ",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-15"
+      },
+      {
+        "name": "マジカルフォレスト",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "G-15・16"
+      },
+      {
+        "name": "Magic Lab",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "R-05・06"
+      },
+      {
+        "name": "mit Stein",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "P-13・14"
+      },
+      {
+        "name": "みつばち",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "P-06"
+      },
+      {
+        "name": "緑工房",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-15"
+      },
+      {
+        "name": "見習い魔女のお道具箱 Poppoya.",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "N-17"
+      },
+      {
+        "name": "ミネ部",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-21・22"
+      },
+      {
+        "name": "miho_ya",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "M-07"
+      },
+      {
+        "name": "ミモザとクライナーフォーゲル",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "P-01～04"
+      },
+      {
+        "name": "Monsieur Pierre",
+        "floor": 4,
+        "category": "その他",
+        "booth": "A-57・58"
+      },
+      {
+        "name": "meu jewelry",
+        "floor": 5,
+        "category": "鉱物",
+        "booth": "Q-13・14"
+      },
+      {
+        "name": "METALLIC DOLLY",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "N-10"
+      },
+      {
+        "name": "moikka",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "L-19"
+      },
+      {
+        "name": "山田デザイン",
+        "floor": 5,
+        "category": "ルース",
+        "booth": "R-19"
+      },
+      {
+        "name": "U FO-from me to you-",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-12"
+      },
+      {
+        "name": "YUKI",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-05・06"
+      },
+      {
+        "name": "有限会社ディアク",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "I-11～14"
+      },
+      {
+        "name": "輸入ビーズ エイシア",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-21"
+      },
+      {
+        "name": "洋灯舎オパール館",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "A-59～62"
+      },
+      {
+        "name": "Lightened",
+        "floor": 4,
+        "category": "その他",
+        "booth": "A-43・44"
+      },
+      {
+        "name": "∵Rustilo",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "M-03・04"
+      },
+      {
+        "name": "リスの宝箱",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "I-01～04"
+      },
+      {
+        "name": "Lilliput",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "G-17・18"
+      },
+      {
+        "name": "Le miel",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-05～07"
+      },
+      {
+        "name": "をかし堂雑貨店",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "L-05"
+      }
+    ],
+    "fri": [
+      {
+        "name": "Archaelio cottage",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-17・18"
+      },
+      {
+        "name": "青赤 Aoaka Stone & Craft",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-08"
+      },
+      {
+        "name": "アサノハ鉱物店",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "G-09・10"
+      },
+      {
+        "name": "アトリエ月光 ～gecko～",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-16"
+      },
+      {
+        "name": "Atelier Mar Gems",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-15・16"
+      },
+      {
+        "name": "アニ",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "G-01～04"
+      },
+      {
+        "name": "ARMEE GEM",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-19～22"
+      },
+      {
+        "name": "American Minerals",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-01・02"
+      },
+      {
+        "name": "ALOHA MINERALS",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-13～16"
+      },
+      {
+        "name": "石と君と",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-35"
+      },
+      {
+        "name": "いしぱら",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-13～16"
+      },
+      {
+        "name": "色石工房",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "I-05～08"
+      },
+      {
+        "name": "インディゴブルー",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "A-79・80"
+      },
+      {
+        "name": "オパールの森",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "G-19・20"
+      },
+      {
+        "name": "風旅結晶",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-33・34"
+      },
+      {
+        "name": "cute stone",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-01～04"
+      },
+      {
+        "name": "今日の研磨さん",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-09・10"
+      },
+      {
+        "name": "◇孔雀屋◇",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-11・12"
+      },
+      {
+        "name": "Grandir",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-05・06"
+      },
+      {
+        "name": "KOUSHUYA",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-11～14"
+      },
+      {
+        "name": "神津オブシディアンラボ",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-17"
+      },
+      {
+        "name": "国産鉱物カタログ",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-15"
+      },
+      {
+        "name": "個人コレクション放出",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-20"
+      },
+      {
+        "name": "後藤商事",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-01・02"
+      },
+      {
+        "name": "Gems R+",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-03・04"
+      },
+      {
+        "name": "GEMS PLANET",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-05・06"
+      },
+      {
+        "name": "自然遊撃隊",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-01・02"
+      },
+      {
+        "name": "鈴木屋byJOA",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "A-65～68"
+      },
+      {
+        "name": "STONE STYLE",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-36"
+      },
+      {
+        "name": "Stone Holic",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-17"
+      },
+      {
+        "name": "sage crystal",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-06"
+      },
+      {
+        "name": "セージ工房",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-17"
+      },
+      {
+        "name": "石華工匠",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-09・10"
+      },
+      {
+        "name": "大地の華",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-20"
+      },
+      {
+        "name": "TASKの鉱物棚",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-13・14"
+      },
+      {
+        "name": "旅石",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-03・04"
+      },
+      {
+        "name": "たびねこ工房",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-07・08"
+      },
+      {
+        "name": "Cha's room(ちゃずるーむ)",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-11～14"
+      },
+      {
+        "name": "つぐこみねらるず",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-31・32"
+      },
+      {
+        "name": "ティアラクラウン",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-07"
+      },
+      {
+        "name": "東京大学地文研究会地質部",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-11・12"
+      },
+      {
+        "name": "中嶋靖雄",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-18"
+      },
+      {
+        "name": "ニライカナイ",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-17・18"
+      },
+      {
+        "name": "NO JADE NO JADE",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-05・06"
+      },
+      {
+        "name": "PK Mineral Collactions",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-09・10"
+      },
+      {
+        "name": "光る石の分光解析研究会",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-07・08"
+      },
+      {
+        "name": "ひよこまこと天然石",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-15・16"
+      },
+      {
+        "name": "Faithful Crystals",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-19・20"
+      },
+      {
+        "name": "FAVORMINERAL",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-25～30"
+      },
+      {
+        "name": "葡萄屋",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-09～12"
+      },
+      {
+        "name": "ほたるいし屋",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-07・08"
+      },
+      {
+        "name": "まるまる堂",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-37・38"
+      },
+      {
+        "name": "三日月Stone",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-19"
+      },
+      {
+        "name": "Mineral Journey",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-05"
+      },
+      {
+        "name": "Mineral Hunter's Diary",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-03・04"
+      },
+      {
+        "name": "メタルと石",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-05"
+      },
+      {
+        "name": "山川",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-21・22"
+      },
+      {
+        "name": "ららら",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-23・24"
+      },
+      {
+        "name": "RIKO",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-07・08"
+      },
+      {
+        "name": "アンダラクリスタル・ミュゼ",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "B-01・02"
+      },
+      {
+        "name": "eArth+stOne/三幸物産㈱",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "G-05・06"
+      },
+      {
+        "name": "I.K Gems",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "I-15・16"
+      },
+      {
+        "name": "amunlapo",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "A-77・78"
+      },
+      {
+        "name": "ishala",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-19・20"
+      },
+      {
+        "name": "Ichiha Macrame Accessory",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-17"
+      },
+      {
+        "name": "WisteriaJewelry",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-13～16"
+      },
+      {
+        "name": "enoguya",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-22"
+      },
+      {
+        "name": "AUREX STONE",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-11"
+      },
+      {
+        "name": "貝のお店HAPPYMARIN",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "G-11・12"
+      },
+      {
+        "name": "叶斗",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-07・08"
+      },
+      {
+        "name": "KuroB Candle",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-18"
+      },
+      {
+        "name": "Kentaro Chiva Photography",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "E-19"
+      },
+      {
+        "name": "工房terue",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-09・10"
+      },
+      {
+        "name": "コバヒ屋玉髄堂",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-18"
+      },
+      {
+        "name": "彩ジュエリー",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-23・24"
+      },
+      {
+        "name": "scintillétoile(サンティエ)",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "G-13・14"
+      },
+      {
+        "name": "GEE WHIZ COMPANY LIMITED",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "C-03・04"
+      },
+      {
+        "name": "J5M",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "A-39・40"
+      },
+      {
+        "name": "ジェム☆虹のカケラ",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-18"
+      },
+      {
+        "name": "ジェムマックス",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-09・10"
+      },
+      {
+        "name": "CIEL STONE",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "G-07・08"
+      },
+      {
+        "name": "シリクリシュヌジェムス(株)",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "A-75・76"
+      },
+      {
+        "name": "Su-Sya&モレウ工房",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-17・18"
+      },
+      {
+        "name": "diamond Keikoのへや",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-08"
+      },
+      {
+        "name": "月の輪工芸",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-12"
+      },
+      {
+        "name": "天然石と雑貨Lillue",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-23・24"
+      },
+      {
+        "name": "天然石とレトロ雑貨のお店！ビルマミッション",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-11～14"
+      },
+      {
+        "name": "トイドロップ",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-19・20"
+      },
+      {
+        "name": "Dream☆stone",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-01～04"
+      },
+      {
+        "name": "なないろは",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-20"
+      },
+      {
+        "name": "bijoux de repos（るぽ）",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "A-69～74"
+      },
+      {
+        "name": "PINKTO",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "A-81・82"
+      },
+      {
+        "name": "fancygems",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-01～04"
+      },
+      {
+        "name": "Ferozah",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "A-63・64"
+      },
+      {
+        "name": "PrimeJewelry",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "I-09・10"
+      },
+      {
+        "name": "まあさ's shop",
+        "floor": 4,
+        "category": "鉱物",
+        "booth": "D-06"
+      },
+      {
+        "name": "マジカルフォレスト",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "G-15・16"
+      },
+      {
+        "name": "緑工房",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-15"
+      },
+      {
+        "name": "YUKI",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "F-05・06"
+      },
+      {
+        "name": "有限会社ディアク",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "I-11～14"
+      },
+      {
+        "name": "輸入ビーズ エイシア",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-21"
+      },
+      {
+        "name": "洋灯舎オパール館",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "A-59～62"
+      },
+      {
+        "name": "リスの宝箱",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "I-01～04"
+      },
+      {
+        "name": "Lilliput",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "G-17・18"
+      },
+      {
+        "name": "Le miel",
+        "floor": 4,
+        "category": "ルース",
+        "booth": "H-05～07"
+      },
+      {
+        "name": "ily",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-10"
+      },
+      {
+        "name": "Atelier koharu",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-07"
+      },
+      {
+        "name": "ARU'S",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-24"
+      },
+      {
+        "name": "ultimate",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-11"
+      },
+      {
+        "name": "石好き美保さん",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-19・20"
+      },
+      {
+        "name": "いぬモチレザークラフト",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-17"
+      },
+      {
+        "name": "ironna-ki",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-05・06"
+      },
+      {
+        "name": "with glow",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-09"
+      },
+      {
+        "name": "ENERGEIA",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-01・02"
+      },
+      {
+        "name": "OAKNOKI JEWELRY",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-11・12"
+      },
+      {
+        "name": "（株）HPS",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-03・04"
+      },
+      {
+        "name": "工房　銀の風",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-01・02"
+      },
+      {
+        "name": "Kotsukotsu no Te",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-03・04"
+      },
+      {
+        "name": "gemstoneKASHIKO",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-23"
+      },
+      {
+        "name": "ジェムY.O",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-09・10"
+      },
+      {
+        "name": "シズクジュエリー",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-18"
+      },
+      {
+        "name": "シャロンママ",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-19・20"
+      },
+      {
+        "name": "真珠工房こゆか",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-07・08"
+      },
+      {
+        "name": "真ちゃん本翡翠",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-05・06"
+      },
+      {
+        "name": "スリランカジェムアンドジュエリー＆国産鉱物ガチャ",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-13・14"
+      },
+      {
+        "name": "chicory",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-16"
+      },
+      {
+        "name": "椿・mayumi",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-14"
+      },
+      {
+        "name": "Fairy Giselle",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-21・22"
+      },
+      {
+        "name": "プティ工房",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-13"
+      },
+      {
+        "name": "Freuden Schmuck",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-15・16"
+      },
+      {
+        "name": "*蛇苺*",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-08"
+      },
+      {
+        "name": "マクラメまるこ",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-15"
+      },
+      {
+        "name": "U FO-from me to you-",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-12"
+      },
+      {
+        "name": "よしけい",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "J-17・18"
+      },
+      {
+        "name": "londonmoon",
+        "floor": 5,
+        "category": "アクセ・雑貨",
+        "booth": "K-21・22"
+      },
+      {
+        "name": "Foyer",
+        "floor": 4,
+        "category": "飲食",
+        "booth": "01・02"
+      }
+    ]
+  },
+  "officialListUrls": {
+    "fri": "https://takama.ne.jp/isi_fleamarket/20261120_fri.html",
+    "sat": "https://takama.ne.jp/isi_fleamarket/20261121_sat.html"
+  }
+}
