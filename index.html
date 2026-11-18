@@ -1,0 +1,364 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>浅草石フリマ マイマップ v19 | 訪問順</title><style>
+:root{font-family:system-ui,-apple-system,'Noto Sans JP',sans-serif;color:#244047;background:#f4f8f8}*{box-sizing:border-box}body{margin:0}button,input,textarea{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #41a7b8;outline-offset:2px}header{padding:16px;color:#fff;background:linear-gradient(110deg,#173f48,#2b6263)}h1{font-size:20px;margin:0 0 4px}header p{font-size:12px;margin:0;color:#e1eff0}main{padding:12px;max-width:1180px;margin:auto}.notice{border:1px solid #e5d49e;background:#fff8e6;padding:10px;border-radius:12px;font-size:12px;line-height:1.6;margin:0 0 12px}.choices{display:flex;gap:7px;margin:0 0 9px}.choices button{border:1px solid #bcd0d3;background:white;border-radius:10px;padding:10px 8px;flex:1;font-weight:700;color:#285058}.choices button.on{background:#1d5961;color:white}.searchrow{display:flex;gap:7px;margin:10px 0}.searchrow input{min-width:0;flex:1;border:1px solid #bfd0d2;border-radius:10px;background:white;padding:12px}.searchrow button{background:white;border:1px solid #bfd0d2;border-radius:10px;padding:8px}.stats{font-size:12px;color:#59717a;margin:8px 0}.legend{font-size:11px;color:#59717a;margin-bottom:8px}.legend span{display:inline-block;padding:3px 7px;border-radius:6px;background:white;border:1px solid #dae2e4;margin:2px}.scroll{overflow-x:auto;padding:2px 2px 10px}.venue{min-width:800px;max-width:940px;margin:auto}.floorbox{border:2px solid #b4c5c6;border-radius:16px;padding:9px;background:#fff;box-shadow:0 1px 3px #0001}.north{font-size:11px;color:#668087;text-align:center;margin:0 0 6px}.outertop,.outerbottom{background:#f9f0f5;border:1px solid #e4cbda;border-radius:9px;padding:5px;margin:3px 44px 8px}.outertop .nums,.outerbottom .nums{display:flex;flex-wrap:wrap;justify-content:center;gap:3px}.middle{display:grid;grid-template-columns:60px 1fr 60px;gap:9px;min-height:620px}.walls{display:flex;flex-direction:column;gap:4px;border-radius:10px;border:1px solid #e4cbda;background:#f9f0f5;padding:4px}.walls .numbers{display:grid;grid-template-columns:repeat(2,1fr);gap:3px}.walls .walltitle{font-weight:800;text-align:center;font-size:12px}.inside{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:repeat(2,1fr);gap:14px;padding:20px 9px;background:#fbfcfc;border-radius:9px;border:1px dashed #e0e6e6;align-items:stretch}.zone{border:1px solid #cedcde;border-radius:11px;background:white;padding:7px;min-width:0}.zone h3{font-size:15px;margin:0 0 7px;display:flex;justify-content:space-between}.zone small{color:#73848a;font-size:10px;font-weight:400}.nums{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px}.booth{font-weight:700;font-size:11px;min-width:0;padding:6px 0;border:1px solid #bbd3d5;border-radius:6px;background:#f0f6f6;color:#26505b}.booth.empty{opacity:.40}.booth.hit{background:#e1f4a9!important;border-color:#77a536!important;box-shadow:0 0 0 2px #acd259}.booth.fav{background:#fff0bf;border-color:#c99d3b}.booth.visited{text-decoration:line-through;opacity:.6}.venuebase{display:grid;grid-template-columns:1fr 260px 1fr;align-items:center;gap:12px;text-align:center;margin-top:8px}.facility{background:#e7f2f3;padding:10px;border-radius:10px;border:1px solid #a9c8ce;font-size:13px}.entryArrow{font-size:14px;font-weight:800;color:#b94d47}.entryArrow em{display:block;font-size:11px;font-weight:400;color:#607781;font-style:normal}.facility small{display:block;color:#59747d;font-size:10px}.rest{display:flex;align-items:center;justify-content:center;text-align:center;color:#6d7780;font-size:13px;background:#e9f0f0;border:1px dashed #bbcdcf;border-radius:13px;line-height:1.6;padding:10px}.fri5{min-height:680px;grid-template-columns:1fr 1fr}.fri5 .rest{grid-row:1 / span 2}.fri5 .konly{grid-column:2;grid-row:1 / span 2}.fri5 .zone .nums{grid-template-columns:repeat(4,minmax(0,1fr))}.south5{min-height:650px}.wallnote{font-size:10px;color:#697b81;margin:5px 0}.officialpanel{max-width:680px;margin:4px auto 18px}.officialframe{position:relative;overflow:hidden;aspect-ratio:250 / 365;background:#eef3f4;border:1px solid #d1dbdd;border-radius:13px}.officialframe img{position:absolute;max-width:none;width:400%;height:auto;top:0;left:var(--left)}.officialpanel p{font-size:12px;color:#526e76;line-height:1.6}.officialpanel a{font-size:13px;color:#236679}.officialerror{display:none;background:#fffaee;padding:10px;border-radius:8px;font-size:12px;color:#986733}.mapIntro{font-size:13px;font-weight:700;margin:7px 0 5px}.entries{display:grid;gap:7px}.entry{display:flex;width:100%;border:1px solid #d8e5e6;border-radius:10px;background:white;align-items:center;text-align:left;justify-content:space-between;padding:11px;gap:8px}.entry b{font-size:13px}.entry small{display:block;color:#72858a}.code{white-space:nowrap;font-size:12px;font-weight:800;color:#1d5961}.hidden{display:none!important}.nohits{padding:18px;text-align:center;background:white;border-radius:10px;color:#718188;font-size:13px}.modal{position:fixed;inset:0;background:#14282c99;z-index:10;display:none;justify-content:center;align-items:flex-end}.modal.show{display:flex}.sheet{width:100%;max-width:610px;background:white;border-radius:19px 19px 0 0;padding:18px 16px max(16px,env(safe-area-inset-bottom));max-height:86dvh;overflow:auto}.sheethead{display:flex;justify-content:space-between;align-items:center;gap:10px}.sheet h2{font-size:19px;margin:0}.x{border:0;background:#e7f0f1;border-radius:40px;width:34px;height:34px;font-size:20px}.place{display:inline-block;background:#e4f0f0;border-radius:8px;padding:8px 10px;margin:8px 0 3px;font-weight:800}.category,.extra{font-size:12px;color:#657d80;margin:6px 0}.sheet label{display:block;font-weight:800;font-size:13px;margin:12px 0 5px}.sheet textarea{width:100%;min-height:85px;border:1px solid #bfd2d2;border-radius:10px;padding:10px}.actions{display:flex;gap:7px;margin-top:11px}.actions button{flex:1;border:1px solid #bdd1d1;border-radius:10px;padding:11px 7px;background:white;font-size:13px}.actions button.on{background:#fff0bf}.actions .primary{background:#215963;color:white}.credits{font-size:11px;color:#6d848b;margin:16px 0 60px;line-height:1.7}.credits a{color:#246f78}
+@media(max-width:650px){main{padding:9px}.choices{gap:4px}.choices button{padding:10px 2px;font-size:12px}.venue{min-width:740px}.middle{grid-template-columns:56px 1fr 56px}.inside{gap:11px}.nums{gap:3px}.booth{font-size:10px;padding:5px 0}.officialpanel{max-width:480px}}
+
+.exactInfo{margin:5px 0 10px;color:#3e5d65;font-size:12px;font-weight:700}
+.mapZoom{margin:0 auto;max-width:760px;overflow-x:auto;background:white;border-radius:12px;border:1px solid #c7dadd}
+.layoutSVG{display:block;width:100%;min-width:520px;height:auto;background:#fff;touch-action:pan-x pan-y}
+.layoutSVG .boothSVG{cursor:pointer;outline:none}
+.layoutSVG .boothSVG rect{fill:#eff3d7;stroke:#65715a;stroke-width:.6}
+.layoutSVG .boothSVG.pinkTile rect{fill:#eda9d9;stroke:#ba719e}
+.layoutSVG .boothSVG.cyanTile rect{fill:#91e8e9;stroke:#319c9c}
+.layoutSVG .boothSVG.wallTile rect{fill:#e7ef92;stroke:#a3ac58}
+.layoutSVG .boothSVG text{fill:#122428;pointer-events:none}
+.layoutSVG .boothSVG.hitSVG rect{fill:#bcf553!important;stroke:#458b25!important;stroke-width:2!important}
+.layoutSVG .boothSVG.favSVG rect{stroke:#cf7e00;stroke-width:2}
+.layoutSVG .boothSVG.visitedSVG{opacity:.5}
+.layoutSVG .boothSVG.unknownSVG{opacity:.52}
+.layoutSVG .boothSVG:focus-visible rect{stroke:#1567a6!important;stroke-width:2.4}
+.layoutSVG .islandOutline rect{fill:none;stroke:#c1cdd1;stroke-width:.55;stroke-dasharray:2 3}
+@media(max-width:600px){.layoutSVG{min-width:560px}}
+
+.mapLegend{background:#fff;border:1px solid #d8e5e5;border-radius:12px;padding:10px 12px;margin:8px 0 12px;font-size:12px;color:#38535b}
+.legendTitle{font-weight:750;font-size:12px;margin:2px 0 5px}.legendTitle:not(:first-child){margin-top:10px}
+.legendItems{display:flex;gap:7px 15px;flex-wrap:wrap;align-items:center}.legendItems span{display:inline-flex;gap:5px;align-items:center;white-space:nowrap}
+.swatch{display:inline-block;width:16px;height:14px;border-radius:2px;border:1px solid #aaa;flex:none}
+.swatchPink{background:#eda9d9;border-color:#ba719e}.swatchCyan{background:#91e8e9;border-color:#319c9c}.swatchYellow{background:#e7ef92;border-color:#a3ac58}.swatchPurple{background:#bd94f5;border-color:#8c66bf}
+.swatchHit{background:#bcf553;border-color:#458b25}.swatchFav{background:#fff;border:2px solid #cf7e00}.swatchUnknown{background:#eff3d7;opacity:.5}
+.layoutSVG .boothSVG.foodTile rect{fill:#bd94f5;stroke:#8c66bf}
+.layoutSVG .boothSVG.accTile rect{fill:#b6e4bb;stroke:#5eaf75}.swatchAcc{background:#b6e4bb;border-color:#5eaf75}
+
+/* v18: visit order planning. The number badge does not obscure booth numbers. */
+.visitOrderBox{border:1px solid #c7d9d9;border-radius:11px;padding:11px 12px;margin-top:13px;background:#f5fbfb}
+.visitOrderBox label{margin:0 0 6px;font-size:14px}
+.visitOrderLine{display:flex;gap:10px;align-items:center}
+.visitOrderLine input{width:110px;max-width:42%;border:1px solid #a9c6ca;background:white;padding:10px 12px;border-radius:9px;font-size:18px;font-weight:800;color:#195360}
+.visitOrderLine p{font-size:11px;line-height:1.5;margin:0;color:#526b72}
+.visitError{color:#a63b25;font-size:12px;line-height:1.5;margin:5px 0 0}
+.visitBadge,.listBadge{display:inline-grid;place-items:center;background:#e37424;color:white;border:2px solid white;border-radius:99px;font-size:10px;font-weight:900;line-height:1;box-shadow:0 1px 3px #0004;flex:none}
+.visitBadge{min-width:21px;height:21px;padding:0 3px}
+.listBadge{min-width:29px;height:29px;padding:0 4px;font-size:13px;margin-right:8px}
+.visitPending{font-size:11px;color:#7a9297;margin-left:6px}
+.layoutSVG .orderBadge{pointer-events:none}
+.layoutSVG .orderBadge circle{fill:#e37424;stroke:white;stroke-width:1.8}
+.layoutSVG .orderBadge text{fill:white;font-weight:900;paint-order:stroke;stroke:none}
+.swatchOrder{border-radius:50%;width:16px;height:16px;background:#e37424;border:2px solid white;box-shadow:0 0 0 1px #e37424}
+</style></head><body>
+<header><h1>💎 浅草石フリマ マイマップ v19</h1><p>2026年11月20日（金）・21日（土）｜台東館4階・5階</p></header><main>
+<div class="notice"><strong>4階</strong>と<strong>11/21（土）5階</strong>は、提供してもらった公式配置図を見ながら位置関係を調整したよ。<strong>11/20（金）5階</strong>だけは公式図を確認できていない暫定配置だよ。</div>
+<div class="choices days"><button data-day="fri">11/20（金）</button><button data-day="sat">11/21（土）</button></div><div class="choices floors"><button data-floor="4">4階</button><button data-floor="5">5階</button></div><div class="searchrow"><input id="query" type="search" placeholder="店名・ブース番号で検索（例：石部、P-07）"><button id="clear">クリア</button></div>
+<div class="choices tabs"><button data-tab="map">簡略マップ</button><button data-tab="official">公式配置図</button><button data-tab="list">店舗一覧</button><button data-tab="fav">お気に入り</button></div>
+<div class="stats" id="stats"></div>
+
+<section id="maparea" class="scroll"><div id="map"></div></section>
+<div id="mapLegend" class="mapLegend" aria-label="地図の色の凡例">
+ <div class="legendTitle">ブースの色（エリア別）</div>
+ <div class="legendItems"><span><i class="swatch swatchPink"></i>ピンク：ピンク色の区画</span><span><i class="swatch swatchCyan"></i>水色：水色の区画</span><span><i class="swatch swatchYellow"></i>黄緑：4階の外周</span><span><i class="swatch swatchAcc"></i>薄緑：5階の緑色の区画</span><span><i class="swatch swatchPurple"></i>紫：飲食</span></div>
+ <div class="legendTitle">マイマップの表示</div>
+ <div class="legendItems"><span><i class="swatch swatchHit"></i>明るい緑：検索ヒット</span><span><i class="swatch swatchFav"></i>オレンジ枠：お気に入り</span><span><i class="swatch swatchOrder"></i>丸数字：お気に入りの訪問順</span><span><i class="swatch swatchUnknown"></i>薄色：出展情報未登録</span></div>
+</div>
+<section id="officialarea" class="hidden officialpanel"><div class="mapIntro" id="officialtitle"></div><div class="officialframe"><img id="officialimg" alt="2026浅草石フリマ冬の公式配置図。入口・エレベーターとブースの位置関係が確認できます。"><p id="officialerror" class="officialerror">公式画像が読み込めなかったよ。下のリンクから開いてね。</p></div><p>画像は主催者公開の2026年11月版から、選んだ日と階の部分を表示しているよ。<strong>番号タップで詳細を見たい場合は「簡略マップ」へ</strong>戻ってね。</p><p><a href="https://takama.ne.jp/isi_fleamarket/202611_ALL.png" target="_blank" rel="noopener">公式の全体配置図を別画面で開く</a></p></section>
+<section id="listarea" class="hidden"><div id="entries" class="entries"></div></section>
+<footer class="credits">出展情報：<a href="https://takama.ne.jp/isi_fleamarket/20261120_fri.html" target="_blank" rel="noopener">金曜公式リスト</a>／<a href="https://takama.ne.jp/isi_fleamarket/20261121_sat.html" target="_blank" rel="noopener">土曜公式リスト</a>。配置図：4階と土曜5階は提供された公式画像を参照。金曜5階は未照合の暫定図。検索・ブース番号タップ・メモはネット接続不要（公式画像表示のみ通信が必要）。お気に入りはv3で保存したものを引き継ぐ方式。今のファイルの個人用データは利用したブラウザ内に保存されるよ。</footer></main>
+<div id="modal" class="modal"><div class="sheet" role="dialog" aria-modal="true"><div class="sheethead"><h2 id="detailTitle"></h2><button id="close" class="x" aria-label="閉じる">×</button></div><div class="place" id="location"></div><div class="category" id="category"></div><div class="extra" id="detailExtra"></div><div class="visitOrderBox"><label for="visitOrder">🔢 訪問順（1〜999）</label><div class="visitOrderLine"><input id="visitOrder" type="number" inputmode="numeric" min="1" max="999" step="1" placeholder="例：1"><p>先にお気に入りを押さなくても入力OK。数字を保存すると自動でお気に入りにも登録するよ。空欄で順番を解除。</p></div><p id="visitError" class="visitError" role="alert" hidden></p></div><label for="memo">✎ 自分用メモ</label><textarea id="memo" placeholder="気になる石、予算、石友さんへのご挨拶など"></textarea><div class="actions"><button id="favorite">☆ お気に入り</button><button id="visited">□ 訪問前</button></div><div class="actions"><button id="cancel">閉じる</button><button id="save" class="primary">順番・メモを保存</button></div></div></div>
+<script>
+'use strict';const DATA={"sat":[{"name":"Archaelio cottage","floor":4,"category":"鉱物","booth":"A-17・18"},{"name":"あいすクライマー","floor":5,"category":"鉱物","booth":"O-19・20"},{"name":"青赤 Aoaka Stone & Craft","floor":4,"category":"鉱物","booth":"D-08"},{"name":"赤穂鉱物化石コレクション","floor":5,"category":"鉱物","booth":"Q-23・24"},{"name":"アサノハ鉱物店","floor":4,"category":"ルース","booth":"G-09・10"},{"name":"アトリエ月光 ～gecko～","floor":4,"category":"ルース","booth":"F-16"},{"name":"アトリエ コトブキヤ","floor":5,"category":"鉱物","booth":"Q-03・04"},{"name":"アトリエ・ソラ","floor":5,"category":"鉱物","booth":"Q-11・12"},{"name":"Atelier Mar Gems","floor":4,"category":"鉱物","booth":"D-15・16"},{"name":"ANAM gems","floor":5,"category":"ルース","booth":"J-55・56"},{"name":"アニ","floor":4,"category":"ルース","booth":"G-01～04"},{"name":"アマカラ堂","floor":4,"category":"その他","booth":"A-51・52"},{"name":"ARMEE GEM","floor":4,"category":"鉱物","booth":"A-19～22"},{"name":"American Minerals","floor":4,"category":"鉱物","booth":"D-01・02"},{"name":"ALOHA MINERALS","floor":4,"category":"鉱物","booth":"B-13～16"},{"name":"石小屋出張所(津軽錦石)","floor":5,"category":"鉱物","booth":"O-03・04"},{"name":"I.S.D.Y","floor":5,"category":"鉱物","booth":"O-09・10"},{"name":"石と君と","floor":4,"category":"鉱物","booth":"A-35"},{"name":"いしぱら","floor":4,"category":"鉱物","booth":"A-13～16"},{"name":"石部","floor":5,"category":"ルース","booth":"P-07・08"},{"name":"石ムグリ","floor":4,"category":"その他","booth":"A-46"},{"name":"色石工房","floor":4,"category":"ルース","booth":"I-05～08"},{"name":"インディゴブルー","floor":4,"category":"ルース","booth":"A-79・80"},{"name":"OPAL DOWNUNDER TAKI","floor":5,"category":"ルース","booth":"J-25～28"},{"name":"オパールの森","floor":4,"category":"ルース","booth":"G-19・20"},{"name":"objet","floor":5,"category":"鉱物","booth":"O-07・08"},{"name":"風旅結晶","floor":4,"category":"鉱物","booth":"A-33・34"},{"name":"カッパとヒラメとFuruta","floor":5,"category":"鉱物","booth":"M-13・14"},{"name":"金森貿易","floor":5,"category":"ルース","booth":"J-49・50"},{"name":"架杜～kanoto～","floor":5,"category":"鉱物","booth":"J-75・76"},{"name":"瓦楽多雑貨店","floor":5,"category":"鉱物","booth":"M-18"},{"name":"cute stone","floor":4,"category":"鉱物","booth":"A-01～04"},{"name":"今日の研磨さん","floor":4,"category":"鉱物","booth":"C-09・10"},{"name":"空想鉱物工作所","floor":4,"category":"その他","booth":"A-49・50"},{"name":"◇孔雀屋◇","floor":4,"category":"鉱物","booth":"B-11・12"},{"name":"Grandir","floor":4,"category":"鉱物","booth":"C-05・06"},{"name":"Crazy Stone・Peony Crystal","floor":5,"category":"ルース","booth":"R-01～04"},{"name":"Crane Lapidary","floor":5,"category":"鉱物","booth":"Q-09・10"},{"name":"黒猫の石屋さん","floor":5,"category":"鉱物","booth":"O-18"},{"name":"KOUSHUYA","floor":4,"category":"鉱物","booth":"C-11～14"},{"name":"神津オブシディアンラボ","floor":4,"category":"鉱物","booth":"E-17"},{"name":"国産鉱物カタログ","floor":4,"category":"鉱物","booth":"E-15"},{"name":"個人コレクション放出","floor":4,"category":"鉱物","booth":"C-20"},{"name":"後藤商事","floor":4,"category":"鉱物","booth":"C-01・02"},{"name":"Gems R+","floor":4,"category":"鉱物","booth":"D-03・04"},{"name":"GEMS PLANET","floor":4,"category":"鉱物","booth":"A-05・06"},{"name":"Sierrarium","floor":5,"category":"鉱物","booth":"M-19・20"},{"name":"四季Minerals","floor":5,"category":"鉱物","booth":"Q-07・08"},{"name":"自然遊撃隊","floor":4,"category":"鉱物","booth":"E-01・02"},{"name":"June Lily","floor":5,"category":"鉱物","booth":"Q-22"},{"name":"小玉標本室","floor":5,"category":"鉱物","booth":"J-73・74"},{"name":"鈴木屋byJOA","floor":4,"category":"ルース","booth":"A-65～68"},{"name":"stoneage","floor":5,"category":"鉱物","booth":"Q-15・16"},{"name":"STONE STYLE","floor":4,"category":"鉱物","booth":"A-36"},{"name":"Stone Holic","floor":4,"category":"鉱物","booth":"C-17"},{"name":"sage crystal","floor":4,"category":"鉱物","booth":"E-06"},{"name":"セージ工房","floor":4,"category":"鉱物","booth":"D-17"},{"name":"石華工匠","floor":4,"category":"鉱物","booth":"E-09・10"},{"name":"大地の華","floor":4,"category":"鉱物","booth":"E-20"},{"name":"TAK Collection","floor":5,"category":"鉱物","booth":"J-71・72"},{"name":"TASKの鉱物棚","floor":4,"category":"鉱物","booth":"E-13・14"},{"name":"旅石","floor":4,"category":"鉱物","booth":"B-03・04"},{"name":"たびねこ工房","floor":4,"category":"鉱物","booth":"C-07・08"},{"name":"Cha's room(ちゃずるーむ)","floor":4,"category":"鉱物","booth":"D-11～14"},{"name":"つぐこみねらるず","floor":4,"category":"鉱物","booth":"A-31・32"},{"name":"ティアラクラウン","floor":4,"category":"鉱物","booth":"D-07"},{"name":"東京大学地文研究会地質部","floor":4,"category":"鉱物","booth":"E-11・12"},{"name":"中嶋靖雄","floor":4,"category":"鉱物","booth":"E-18"},{"name":"ニライカナイ","floor":4,"category":"鉱物","booth":"B-17・18"},{"name":"ねこや","floor":5,"category":"鉱物","booth":"J-59～62"},{"name":"NO JADE NO JADE","floor":4,"category":"鉱物","booth":"B-05・06"},{"name":"HAL MINERALS","floor":5,"category":"鉱物","booth":"J-65・66"},{"name":"PK Mineral Collactions","floor":4,"category":"鉱物","booth":"D-09・10"},{"name":"光る石の分光解析研究会","floor":4,"category":"鉱物","booth":"E-07・08"},{"name":"ひよこまこと天然石","floor":4,"category":"鉱物","booth":"C-15・16"},{"name":"Faithful Crystals","floor":4,"category":"鉱物","booth":"B-19・20"},{"name":"FAVORMINERAL","floor":4,"category":"鉱物","booth":"A-25～30"},{"name":"葡萄屋","floor":4,"category":"鉱物","booth":"A-09～12"},{"name":"へし屋","floor":5,"category":"鉱物","booth":"J-69・70"},{"name":"ほたるいし屋","floor":4,"category":"鉱物","booth":"B-07・08"},{"name":"ポジこハウス","floor":5,"category":"鉱物","booth":"O-01・02"},{"name":"ポテト&ペンギン","floor":5,"category":"鉱物","booth":"O-06"},{"name":"まるまる堂","floor":4,"category":"鉱物","booth":"A-37・38"},{"name":"三日月Stone","floor":4,"category":"鉱物","booth":"D-19"},{"name":"Mineral Journey","floor":4,"category":"鉱物","booth":"E-05"},{"name":"Mineral Hunter's Diary","floor":4,"category":"鉱物","booth":"E-03・04"},{"name":"ムギの標本箱","floor":5,"category":"鉱物","booth":"Q-21"},{"name":"メタルと石","floor":4,"category":"鉱物","booth":"D-05"},{"name":"瑪瑙売り","floor":5,"category":"鉱物","booth":"O-15・16"},{"name":"山川","floor":4,"category":"鉱物","booth":"B-21・22"},{"name":"宵暁","floor":5,"category":"鉱物","booth":"O-05"},{"name":"よしけい","floor":5,"category":"アクセ・雑貨","booth":"J-17・18"},{"name":"よっしー","floor":5,"category":"鉱物","booth":"J-63・64"},{"name":"ららら","floor":4,"category":"鉱物","booth":"B-23・24"},{"name":"Lien","floor":5,"category":"鉱物","booth":"Q-05・06"},{"name":"RIKO","floor":4,"category":"鉱物","booth":"A-07・08"},{"name":"Lithos Graphics","floor":5,"category":"鉱物","booth":"O-11～14"},{"name":"LEGACY MINERALS","floor":5,"category":"鉱物","booth":"Q-19・20"},{"name":"Rock crystalの鉱物屋さん","floor":5,"category":"鉱物","booth":"Q-01・02"},{"name":"wanoya","floor":5,"category":"鉱物","booth":"Q-17・18"},{"name":"Wan photography","floor":4,"category":"その他","booth":"A-54"},{"name":"わがまま猫と愉快な仲間たち","floor":5,"category":"アクセ・雑貨","booth":"J-79～82"},{"name":"One Loose","floor":5,"category":"ルース","booth":"J-23・24"},{"name":"銀と天然石 HALAKA","floor":5,"category":"アクセ・雑貨","booth":"M-11・12"},{"name":"魔女と商人の宝石店","floor":5,"category":"アクセ・雑貨","booth":"K-09・10"},{"name":"魔女の森へようこそ！","floor":5,"category":"アクセ・雑貨","booth":"N-07"},{"name":"BERYL BOOKS","floor":4,"category":"その他","booth":"A-47・48"},{"name":"よろずもん","floor":5,"category":"アクセ・雑貨","booth":"N-04"},{"name":"にゃんこてぃーるーむ","floor":4,"category":"飲食","booth":"01～04"},{"name":"アンダラクリスタル・ミュゼ","floor":4,"category":"鉱物","booth":"B-01・02"},{"name":"eArth+stOne/三幸物産㈱","floor":4,"category":"ルース","booth":"G-05・06"},{"name":"I.K Gems","floor":4,"category":"ルース","booth":"I-15・16"},{"name":"あおいかえる","floor":5,"category":"アクセ・雑貨","booth":"N-18"},{"name":"At","floor":5,"category":"アクセ・雑貨","booth":"M-05"},{"name":"Atelier koharu","floor":5,"category":"アクセ・雑貨","booth":"J-07"},{"name":"あまなつ","floor":5,"category":"アクセ・雑貨","booth":"L-07"},{"name":"AMIHA","floor":5,"category":"アクセ・雑貨","booth":"L-08"},{"name":"amunlapo","floor":4,"category":"ルース","booth":"A-77・78"},{"name":"ARU'S","floor":5,"category":"アクセ・雑貨","booth":"K-24"},{"name":"ultimate","floor":5,"category":"アクセ・雑貨","booth":"K-11"},{"name":"石好き美保さん","floor":5,"category":"アクセ・雑貨","booth":"J-19・20"},{"name":"ishala","floor":4,"category":"ルース","booth":"H-19・20"},{"name":"石結屋","floor":5,"category":"ルース","booth":"P-05"},{"name":"板墨屋","floor":5,"category":"ルース","booth":"P-09"},{"name":"Ichiha Macrame Accessory","floor":4,"category":"ルース","booth":"F-17"},{"name":"いぬモチレザークラフト","floor":5,"category":"アクセ・雑貨","booth":"K-17"},{"name":"ironna-ki","floor":5,"category":"アクセ・雑貨","booth":"K-05・06"},{"name":"INTOP GEMS","floor":5,"category":"ルース","booth":"P-15"},{"name":"WisteriaJewelry","floor":4,"category":"ルース","booth":"H-13～16"},{"name":"ういのおくやま","floor":4,"category":"その他","booth":"A-55"},{"name":"esplendor.","floor":5,"category":"アクセ・雑貨","booth":"L-06"},{"name":"ENERGEIA","floor":5,"category":"アクセ・雑貨","booth":"J-01・02"},{"name":"enoguya","floor":4,"category":"ルース","booth":"H-22"},{"name":"MYコレクション","floor":5,"category":"ルース","booth":"J-38"},{"name":"OAKNOKI JEWELRY","floor":5,"category":"アクセ・雑貨","booth":"J-11・12"},{"name":"AUREX STONE","floor":4,"category":"ルース","booth":"H-11"},{"name":"おさかなや","floor":5,"category":"アクセ・雑貨","booth":"M-06"},{"name":"Opal Hunter","floor":5,"category":"アクセ・雑貨","booth":"N-01・02"},{"name":"Olive-Blender Jewels","floor":5,"category":"ルース","booth":"P-16"},{"name":"貝のお店HAPPYMARIN","floor":4,"category":"ルース","booth":"G-11・12"},{"name":"火山＆てんてん石のみせ","floor":5,"category":"鉱物","booth":"J-77・78"},{"name":"叶斗","floor":4,"category":"ルース","booth":"F-07・08"},{"name":"（株）HPS","floor":5,"category":"アクセ・雑貨","booth":"K-03・04"},{"name":"カラーストーン イシルディン","floor":5,"category":"ルース","booth":"R-11・12"},{"name":"Caricia","floor":5,"category":"アクセ・雑貨","booth":"L-03・04"},{"name":"かわいい石や","floor":5,"category":"ルース","booth":"R-08"},{"name":"Chianola","floor":5,"category":"アクセ・雑貨","booth":"L-16"},{"name":"9_R/Lock-1","floor":5,"category":"アクセ・雑貨","booth":"N-19"},{"name":"きらり＆USHIQ","floor":5,"category":"アクセ・雑貨","booth":"L-13・14"},{"name":"kirico","floor":5,"category":"ルース","booth":"R-07"},{"name":"銀ぎんや音","floor":5,"category":"アクセ・雑貨","booth":"L-09"},{"name":"草色の翡翠堂","floor":5,"category":"アクセ・雑貨","booth":"N-08"},{"name":"KuroB Candle","floor":4,"category":"鉱物","booth":"C-18"},{"name":"Ki jewelry","floor":5,"category":"ルース","booth":"J-51・52"},{"name":"Kentaro Chiva Photography","floor":4,"category":"鉱物","booth":"E-19"},{"name":"KOSAI","floor":5,"category":"ルース","booth":"R-15・16"},{"name":"香房エメラルドカフェ","floor":5,"category":"ルース","booth":"P-11・12"},{"name":"工房　銀の風","floor":5,"category":"アクセ・雑貨","booth":"K-01・02"},{"name":"工房terue","floor":4,"category":"ルース","booth":"F-09・10"},{"name":"こころがときめく宝石の魔法","floor":5,"category":"ルース","booth":"R-18"},{"name":"こざとや","floor":5,"category":"ルース","booth":"J-57・58"},{"name":"cozmic Lion","floor":5,"category":"ルース","booth":"J-43・44"},{"name":"kokkoku","floor":5,"category":"ルース","booth":"J-33・34"},{"name":"Kotsukotsu no Te","floor":5,"category":"アクセ・雑貨","booth":"J-03・04"},{"name":"木花野神社","floor":4,"category":"その他","booth":"A-53"},{"name":"コバヒ屋玉髄堂","floor":4,"category":"鉱物","booth":"D-18"},{"name":"colemoeto","floor":5,"category":"アクセ・雑貨","booth":"N-13・14"},{"name":"ころころぐりんと","floor":5,"category":"アクセ・雑貨","booth":"N-16"},{"name":"coronblan","floor":5,"category":"アクセ・雑貨","booth":"N-15"},{"name":"彩ジュエリー","floor":4,"category":"鉱物","booth":"A-23・24"},{"name":"澤矢商事","floor":5,"category":"ルース","booth":"J-29～32"},{"name":"サンズイ+IchIshi","floor":5,"category":"鉱物","booth":"J-67・68"},{"name":"scintillétoile(サンティエ)","floor":4,"category":"ルース","booth":"G-13・14"},{"name":"GEE WHIZ COMPANY LIMITED","floor":4,"category":"鉱物","booth":"C-03・04"},{"name":"J5M","floor":4,"category":"鉱物","booth":"A-39・40"},{"name":"gemstoneKASHIKO","floor":5,"category":"アクセ・雑貨","booth":"K-23"},{"name":"ジェム☆虹のカケラ","floor":4,"category":"ルース","booth":"F-18"},{"name":"ジェムマックス","floor":4,"category":"ルース","booth":"H-09・10"},{"name":"ジェムY.O","floor":5,"category":"アクセ・雑貨","booth":"J-09・10"},{"name":"CIEL STONE","floor":4,"category":"ルース","booth":"G-07・08"},{"name":"しずかのうみ","floor":5,"category":"アクセ・雑貨","booth":"M-08"},{"name":"シズクジュエリー","floor":5,"category":"アクセ・雑貨","booth":"K-18"},{"name":"忍ばずの館","floor":5,"category":"ルース","booth":"J-45～47"},{"name":"ジャージーズ","floor":5,"category":"ルース","booth":"R-17"},{"name":"シリクリシュヌジェムス(株)","floor":4,"category":"ルース","booth":"A-75・76"},{"name":"詩央路","floor":5,"category":"アクセ・雑貨","booth":"N-05"},{"name":"真珠工房こゆか","floor":5,"category":"アクセ・雑貨","booth":"K-07・08"},{"name":"人生五十年","floor":5,"category":"アクセ・雑貨","booth":"N-09"},{"name":"真ちゃん本翡翠","floor":5,"category":"アクセ・雑貨","booth":"J-05・06"},{"name":"Su-Sya&モレウ工房","floor":4,"category":"ルース","booth":"H-17・18"},{"name":"スズノアトリエ","floor":5,"category":"アクセ・雑貨","booth":"N-20"},{"name":"スリランカジェムアンドジュエリー＆国産鉱物ガチャ","floor":5,"category":"アクセ・雑貨","booth":"J-13・14"},{"name":"千億のしずく","floor":5,"category":"アクセ・雑貨","booth":"L-10"},{"name":"創作ジュエリービレッジ","floor":5,"category":"ルース","booth":"J-39～42"},{"name":"空色くらげ","floor":4,"category":"その他","booth":"A-56"},{"name":"diamond Keikoのへや","floor":4,"category":"ルース","booth":"H-08"},{"name":"タグボート","floor":5,"category":"アクセ・雑貨","booth":"L-17"},{"name":"たんざ屋","floor":5,"category":"ルース","booth":"J-48"},{"name":"ちくまや","floor":5,"category":"ルース","booth":"P-19・20"},{"name":"紐石屋","floor":5,"category":"アクセ・雑貨","booth":"L-11・12"},{"name":"月の輪工芸","floor":4,"category":"ルース","booth":"H-12"},{"name":"椿・mayumi","floor":5,"category":"アクセ・雑貨","booth":"K-14"},{"name":"天然石と雑貨Lillue","floor":4,"category":"ルース","booth":"H-23・24"},{"name":"天然石とレトロ雑貨のお店！ビルマミッション","floor":4,"category":"ルース","booth":"F-11～14"},{"name":"トイドロップ","floor":4,"category":"ルース","booth":"F-19・20"},{"name":"東京シャチホコ","floor":5,"category":"ルース","booth":"R-09・10"},{"name":"TOTO's","floor":5,"category":"アクセ・雑貨","booth":"N-06"},{"name":"DONATELLA","floor":5,"category":"アクセ・雑貨","booth":"M-01・02"},{"name":"Dream☆stone","floor":4,"category":"ルース","booth":"F-01～04"},{"name":"なないろは","floor":4,"category":"鉱物","booth":"D-20"},{"name":"Narrative","floor":5,"category":"アクセ・雑貨","booth":"L-20"},{"name":"バイカラーの世界","floor":5,"category":"ルース","booth":"R-13・14"},{"name":"Happy Y-style","floor":5,"category":"アクセ・雑貨","booth":"L-15"},{"name":"hanalito","floor":5,"category":"アクセ・雑貨","booth":"L-18"},{"name":"パライバ沼の淵＆オカメ堂","floor":4,"category":"その他","booth":"A-41・42"},{"name":"はるちぃ’s room","floor":5,"category":"鉱物","booth":"M-17"},{"name":"パンダストーン商店","floor":5,"category":"ルース","booth":"P-10"},{"name":"PicGem","floor":5,"category":"ルース","booth":"P-17"},{"name":"piquer piquer","floor":5,"category":"アクセ・雑貨","booth":"M-10"},{"name":"bijoux de repos（るぽ）","floor":4,"category":"ルース","booth":"A-69～74"},{"name":"秘密の石屋","floor":5,"category":"アクセ・雑貨","booth":"L-01・02"},{"name":"pure*wire","floor":5,"category":"アクセ・雑貨","booth":"N-11・12"},{"name":"PINKTO","floor":4,"category":"ルース","booth":"A-81・82"},{"name":"fancygems","floor":4,"category":"ルース","booth":"H-01～04"},{"name":"Fairy Giselle","floor":5,"category":"アクセ・雑貨","booth":"J-21・22"},{"name":"Ferozah","floor":4,"category":"ルース","booth":"A-63・64"},{"name":"Forest","floor":5,"category":"アクセ・雑貨","booth":"K-13"},{"name":"FUJIMORI","floor":5,"category":"ルース","booth":"J-53・54"},{"name":"物欲＆れんまま","floor":5,"category":"ルース","booth":"J-35～37"},{"name":"PrimeJewelry","floor":4,"category":"ルース","booth":"I-09・10"},{"name":"Pretty Stone","floor":5,"category":"ルース","booth":"P-18"},{"name":"PlumeriaGem&Beatrice","floor":5,"category":"ルース","booth":"R-20"},{"name":"Freuden Schmuck","floor":5,"category":"アクセ・雑貨","booth":"J-15・16"},{"name":"*蛇苺*","floor":5,"category":"アクセ・雑貨","booth":"J-08"},{"name":"宝石輝くルースケースのQole × TrustGem","floor":4,"category":"その他","booth":"A-45"},{"name":"ほるすの秘密基地","floor":5,"category":"アクセ・雑貨","booth":"M-09"},{"name":"Porte Bonheur S","floor":5,"category":"鉱物","booth":"M-15・16"},{"name":"まあさ's shop","floor":4,"category":"鉱物","booth":"D-06"},{"name":"まいこの宝石箱with violas","floor":5,"category":"ルース","booth":"O-17"},{"name":"マクラメ栄斗&kinonsh","floor":5,"category":"アクセ・雑貨","booth":"K-19・20"},{"name":"Macrame Kohen","floor":5,"category":"アクセ・雑貨","booth":"N-03"},{"name":"マクラメまるこ","floor":5,"category":"アクセ・雑貨","booth":"K-15"},{"name":"マジカルフォレスト","floor":4,"category":"ルース","booth":"G-15・16"},{"name":"Magic Lab","floor":5,"category":"ルース","booth":"R-05・06"},{"name":"mit Stein","floor":5,"category":"ルース","booth":"P-13・14"},{"name":"みつばち","floor":5,"category":"ルース","booth":"P-06"},{"name":"緑工房","floor":4,"category":"ルース","booth":"F-15"},{"name":"見習い魔女のお道具箱 Poppoya.","floor":5,"category":"アクセ・雑貨","booth":"N-17"},{"name":"ミネ部","floor":5,"category":"アクセ・雑貨","booth":"K-21・22"},{"name":"miho_ya","floor":5,"category":"アクセ・雑貨","booth":"M-07"},{"name":"ミモザとクライナーフォーゲル","floor":5,"category":"ルース","booth":"P-01～04"},{"name":"Monsieur Pierre","floor":4,"category":"その他","booth":"A-57・58"},{"name":"meu jewelry","floor":5,"category":"鉱物","booth":"Q-13・14"},{"name":"METALLIC DOLLY","floor":5,"category":"アクセ・雑貨","booth":"N-10"},{"name":"moikka","floor":5,"category":"アクセ・雑貨","booth":"L-19"},{"name":"山田デザイン","floor":5,"category":"ルース","booth":"R-19"},{"name":"U FO-from me to you-","floor":5,"category":"アクセ・雑貨","booth":"K-12"},{"name":"YUKI","floor":4,"category":"ルース","booth":"F-05・06"},{"name":"有限会社ディアク","floor":4,"category":"ルース","booth":"I-11～14"},{"name":"輸入ビーズ エイシア","floor":4,"category":"ルース","booth":"H-21"},{"name":"洋灯舎オパール館","floor":4,"category":"ルース","booth":"A-59～62"},{"name":"Lightened","floor":4,"category":"その他","booth":"A-43・44"},{"name":"∵Rustilo","floor":5,"category":"アクセ・雑貨","booth":"M-03・04"},{"name":"リスの宝箱","floor":4,"category":"ルース","booth":"I-01～04"},{"name":"Lilliput","floor":4,"category":"ルース","booth":"G-17・18"},{"name":"Le miel","floor":4,"category":"ルース","booth":"H-05～07"},{"name":"をかし堂雑貨店","floor":5,"category":"アクセ・雑貨","booth":"L-05"}],"fri":[{"name":"Archaelio cottage","floor":4,"category":"鉱物","booth":"A-17・18"},{"name":"青赤 Aoaka Stone & Craft","floor":4,"category":"鉱物","booth":"D-08"},{"name":"アサノハ鉱物店","floor":4,"category":"ルース","booth":"G-09・10"},{"name":"アトリエ月光 ～gecko～","floor":4,"category":"ルース","booth":"F-16"},{"name":"Atelier Mar Gems","floor":4,"category":"鉱物","booth":"D-15・16"},{"name":"アニ","floor":4,"category":"ルース","booth":"G-01～04"},{"name":"ARMEE GEM","floor":4,"category":"鉱物","booth":"A-19～22"},{"name":"American Minerals","floor":4,"category":"鉱物","booth":"D-01・02"},{"name":"ALOHA MINERALS","floor":4,"category":"鉱物","booth":"B-13～16"},{"name":"石と君と","floor":4,"category":"鉱物","booth":"A-35"},{"name":"いしぱら","floor":4,"category":"鉱物","booth":"A-13～16"},{"name":"色石工房","floor":4,"category":"ルース","booth":"I-05～08"},{"name":"インディゴブルー","floor":4,"category":"ルース","booth":"A-79・80"},{"name":"オパールの森","floor":4,"category":"ルース","booth":"G-19・20"},{"name":"風旅結晶","floor":4,"category":"鉱物","booth":"A-33・34"},{"name":"cute stone","floor":4,"category":"鉱物","booth":"A-01～04"},{"name":"今日の研磨さん","floor":4,"category":"鉱物","booth":"C-09・10"},{"name":"◇孔雀屋◇","floor":4,"category":"鉱物","booth":"B-11・12"},{"name":"Grandir","floor":4,"category":"鉱物","booth":"C-05・06"},{"name":"KOUSHUYA","floor":4,"category":"鉱物","booth":"C-11～14"},{"name":"神津オブシディアンラボ","floor":4,"category":"鉱物","booth":"E-17"},{"name":"国産鉱物カタログ","floor":4,"category":"鉱物","booth":"E-15"},{"name":"個人コレクション放出","floor":4,"category":"鉱物","booth":"C-20"},{"name":"後藤商事","floor":4,"category":"鉱物","booth":"C-01・02"},{"name":"Gems R+","floor":4,"category":"鉱物","booth":"D-03・04"},{"name":"GEMS PLANET","floor":4,"category":"鉱物","booth":"A-05・06"},{"name":"自然遊撃隊","floor":4,"category":"鉱物","booth":"E-01・02"},{"name":"鈴木屋byJOA","floor":4,"category":"ルース","booth":"A-65～68"},{"name":"STONE STYLE","floor":4,"category":"鉱物","booth":"A-36"},{"name":"Stone Holic","floor":4,"category":"鉱物","booth":"C-17"},{"name":"sage crystal","floor":4,"category":"鉱物","booth":"E-06"},{"name":"セージ工房","floor":4,"category":"鉱物","booth":"D-17"},{"name":"石華工匠","floor":4,"category":"鉱物","booth":"E-09・10"},{"name":"大地の華","floor":4,"category":"鉱物","booth":"E-20"},{"name":"TASKの鉱物棚","floor":4,"category":"鉱物","booth":"E-13・14"},{"name":"旅石","floor":4,"category":"鉱物","booth":"B-03・04"},{"name":"たびねこ工房","floor":4,"category":"鉱物","booth":"C-07・08"},{"name":"Cha's room(ちゃずるーむ)","floor":4,"category":"鉱物","booth":"D-11～14"},{"name":"つぐこみねらるず","floor":4,"category":"鉱物","booth":"A-31・32"},{"name":"ティアラクラウン","floor":4,"category":"鉱物","booth":"D-07"},{"name":"東京大学地文研究会地質部","floor":4,"category":"鉱物","booth":"E-11・12"},{"name":"中嶋靖雄","floor":4,"category":"鉱物","booth":"E-18"},{"name":"ニライカナイ","floor":4,"category":"鉱物","booth":"B-17・18"},{"name":"NO JADE NO JADE","floor":4,"category":"鉱物","booth":"B-05・06"},{"name":"PK Mineral Collactions","floor":4,"category":"鉱物","booth":"D-09・10"},{"name":"光る石の分光解析研究会","floor":4,"category":"鉱物","booth":"E-07・08"},{"name":"ひよこまこと天然石","floor":4,"category":"鉱物","booth":"C-15・16"},{"name":"Faithful Crystals","floor":4,"category":"鉱物","booth":"B-19・20"},{"name":"FAVORMINERAL","floor":4,"category":"鉱物","booth":"A-25～30"},{"name":"葡萄屋","floor":4,"category":"鉱物","booth":"A-09～12"},{"name":"ほたるいし屋","floor":4,"category":"鉱物","booth":"B-07・08"},{"name":"まるまる堂","floor":4,"category":"鉱物","booth":"A-37・38"},{"name":"三日月Stone","floor":4,"category":"鉱物","booth":"D-19"},{"name":"Mineral Journey","floor":4,"category":"鉱物","booth":"E-05"},{"name":"Mineral Hunter's Diary","floor":4,"category":"鉱物","booth":"E-03・04"},{"name":"メタルと石","floor":4,"category":"鉱物","booth":"D-05"},{"name":"山川","floor":4,"category":"鉱物","booth":"B-21・22"},{"name":"ららら","floor":4,"category":"鉱物","booth":"B-23・24"},{"name":"RIKO","floor":4,"category":"鉱物","booth":"A-07・08"},{"name":"アンダラクリスタル・ミュゼ","floor":4,"category":"鉱物","booth":"B-01・02"},{"name":"eArth+stOne/三幸物産㈱","floor":4,"category":"ルース","booth":"G-05・06"},{"name":"I.K Gems","floor":4,"category":"ルース","booth":"I-15・16"},{"name":"amunlapo","floor":4,"category":"ルース","booth":"A-77・78"},{"name":"ishala","floor":4,"category":"ルース","booth":"H-19・20"},{"name":"Ichiha Macrame Accessory","floor":4,"category":"ルース","booth":"F-17"},{"name":"WisteriaJewelry","floor":4,"category":"ルース","booth":"H-13～16"},{"name":"enoguya","floor":4,"category":"ルース","booth":"H-22"},{"name":"AUREX STONE","floor":4,"category":"ルース","booth":"H-11"},{"name":"貝のお店HAPPYMARIN","floor":4,"category":"ルース","booth":"G-11・12"},{"name":"叶斗","floor":4,"category":"ルース","booth":"F-07・08"},{"name":"KuroB Candle","floor":4,"category":"鉱物","booth":"C-18"},{"name":"Kentaro Chiva Photography","floor":4,"category":"鉱物","booth":"E-19"},{"name":"工房terue","floor":4,"category":"ルース","booth":"F-09・10"},{"name":"コバヒ屋玉髄堂","floor":4,"category":"鉱物","booth":"D-18"},{"name":"彩ジュエリー","floor":4,"category":"鉱物","booth":"A-23・24"},{"name":"scintillétoile(サンティエ)","floor":4,"category":"ルース","booth":"G-13・14"},{"name":"GEE WHIZ COMPANY LIMITED","floor":4,"category":"鉱物","booth":"C-03・04"},{"name":"J5M","floor":4,"category":"鉱物","booth":"A-39・40"},{"name":"ジェム☆虹のカケラ","floor":4,"category":"ルース","booth":"F-18"},{"name":"ジェムマックス","floor":4,"category":"ルース","booth":"H-09・10"},{"name":"CIEL STONE","floor":4,"category":"ルース","booth":"G-07・08"},{"name":"シリクリシュヌジェムス(株)","floor":4,"category":"ルース","booth":"A-75・76"},{"name":"Su-Sya&モレウ工房","floor":4,"category":"ルース","booth":"H-17・18"},{"name":"diamond Keikoのへや","floor":4,"category":"ルース","booth":"H-08"},{"name":"月の輪工芸","floor":4,"category":"ルース","booth":"H-12"},{"name":"天然石と雑貨Lillue","floor":4,"category":"ルース","booth":"H-23・24"},{"name":"天然石とレトロ雑貨のお店！ビルマミッション","floor":4,"category":"ルース","booth":"F-11～14"},{"name":"トイドロップ","floor":4,"category":"ルース","booth":"F-19・20"},{"name":"Dream☆stone","floor":4,"category":"ルース","booth":"F-01～04"},{"name":"なないろは","floor":4,"category":"鉱物","booth":"D-20"},{"name":"bijoux de repos（るぽ）","floor":4,"category":"ルース","booth":"A-69～74"},{"name":"PINKTO","floor":4,"category":"ルース","booth":"A-81・82"},{"name":"fancygems","floor":4,"category":"ルース","booth":"H-01～04"},{"name":"Ferozah","floor":4,"category":"ルース","booth":"A-63・64"},{"name":"PrimeJewelry","floor":4,"category":"ルース","booth":"I-09・10"},{"name":"まあさ's shop","floor":4,"category":"鉱物","booth":"D-06"},{"name":"マジカルフォレスト","floor":4,"category":"ルース","booth":"G-15・16"},{"name":"緑工房","floor":4,"category":"ルース","booth":"F-15"},{"name":"YUKI","floor":4,"category":"ルース","booth":"F-05・06"},{"name":"有限会社ディアク","floor":4,"category":"ルース","booth":"I-11～14"},{"name":"輸入ビーズ エイシア","floor":4,"category":"ルース","booth":"H-21"},{"name":"洋灯舎オパール館","floor":4,"category":"ルース","booth":"A-59～62"},{"name":"リスの宝箱","floor":4,"category":"ルース","booth":"I-01～04"},{"name":"Lilliput","floor":4,"category":"ルース","booth":"G-17・18"},{"name":"Le miel","floor":4,"category":"ルース","booth":"H-05～07"},{"name":"ily","floor":5,"category":"アクセ・雑貨","booth":"K-10"},{"name":"Atelier koharu","floor":5,"category":"アクセ・雑貨","booth":"J-07"},{"name":"ARU'S","floor":5,"category":"アクセ・雑貨","booth":"K-24"},{"name":"ultimate","floor":5,"category":"アクセ・雑貨","booth":"K-11"},{"name":"石好き美保さん","floor":5,"category":"アクセ・雑貨","booth":"J-19・20"},{"name":"いぬモチレザークラフト","floor":5,"category":"アクセ・雑貨","booth":"K-17"},{"name":"ironna-ki","floor":5,"category":"アクセ・雑貨","booth":"K-05・06"},{"name":"with glow","floor":5,"category":"アクセ・雑貨","booth":"K-09"},{"name":"ENERGEIA","floor":5,"category":"アクセ・雑貨","booth":"J-01・02"},{"name":"OAKNOKI JEWELRY","floor":5,"category":"アクセ・雑貨","booth":"J-11・12"},{"name":"（株）HPS","floor":5,"category":"アクセ・雑貨","booth":"K-03・04"},{"name":"工房　銀の風","floor":5,"category":"アクセ・雑貨","booth":"K-01・02"},{"name":"Kotsukotsu no Te","floor":5,"category":"アクセ・雑貨","booth":"J-03・04"},{"name":"gemstoneKASHIKO","floor":5,"category":"アクセ・雑貨","booth":"K-23"},{"name":"ジェムY.O","floor":5,"category":"アクセ・雑貨","booth":"J-09・10"},{"name":"シズクジュエリー","floor":5,"category":"アクセ・雑貨","booth":"K-18"},{"name":"シャロンママ","floor":5,"category":"アクセ・雑貨","booth":"K-19・20"},{"name":"真珠工房こゆか","floor":5,"category":"アクセ・雑貨","booth":"K-07・08"},{"name":"真ちゃん本翡翠","floor":5,"category":"アクセ・雑貨","booth":"J-05・06"},{"name":"スリランカジェムアンドジュエリー＆国産鉱物ガチャ","floor":5,"category":"アクセ・雑貨","booth":"J-13・14"},{"name":"chicory","floor":5,"category":"アクセ・雑貨","booth":"K-16"},{"name":"椿・mayumi","floor":5,"category":"アクセ・雑貨","booth":"K-14"},{"name":"Fairy Giselle","floor":5,"category":"アクセ・雑貨","booth":"J-21・22"},{"name":"プティ工房","floor":5,"category":"アクセ・雑貨","booth":"K-13"},{"name":"Freuden Schmuck","floor":5,"category":"アクセ・雑貨","booth":"J-15・16"},{"name":"*蛇苺*","floor":5,"category":"アクセ・雑貨","booth":"J-08"},{"name":"マクラメまるこ","floor":5,"category":"アクセ・雑貨","booth":"K-15"},{"name":"U FO-from me to you-","floor":5,"category":"アクセ・雑貨","booth":"K-12"},{"name":"よしけい","floor":5,"category":"アクセ・雑貨","booth":"J-17・18"},{"name":"londonmoon","floor":5,"category":"アクセ・雑貨","booth":"K-21・22"},{"name":"Foyer","floor":4,"category":"飲食","booth":"01・02"}]};
+const $=id=>document.getElementById(id);let day='sat',floor=4,tab='map',current=null,saved={};try{saved=JSON.parse(localStorage.getItem('asakusa-ishi-v3')||'{}')||{}}catch(e){}
+const COUNT={4:{A:82,B:24,C:20,D:20,E:20,F:20,G:20,H:24,I:16},5:{J:82,K:24,L:20,M:20,N:20,O:20,P:20,Q:24,R:20}};
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const natural=s=>String(s??'').toLowerCase().normalize('NFKC').replace(/[\sー－\-~〜～・]/g,'');
+function codes(booth){let s=String(booth).normalize('NFKC').replace(/〜/g,'～').replace(/~/g,'～');let m=s.match(/^([A-Z]+)-?(.*)$/),prefix=m?m[1]:'飲食',t=m?m[2]:s;let a=t.includes('～')?(()=>{let [x,y]=t.split('～').map(Number);return Array.from({length:Math.max(0,Math.min(100,y-x+1))},(_,i)=>x+i)})():[...t.matchAll(/\d+/g)].map(x=>+x[0]);return a.map(n=>prefix+'-'+String(n).padStart(2,'0'))}
+const all=()=>DATA[day];const floorsellers=()=>all().filter(s=>s.floor===floor);const key=s=>`${day}|${s.floor}|${s.booth}|${s.name}`;const state=s=>saved[key(s)]||(saved[key(s)]={fav:false,visited:false,memo:'',visitOrder:null});
+function visitNumber(s){const st=state(s),n=Number(st.visitOrder);return st.fav&&Number.isInteger(n)&&n>=1&&n<=999?n:null}
+function sortByVisitOrder(a,b){return (visitNumber(a)??100000)-(visitNumber(b)??100000)||a.floor-b.floor||a.booth.localeCompare(b.booth,'ja')}
+function refreshDetailActions(st){
+ $('favorite').textContent=st.fav?'★ お気に入り済':'☆ お気に入り';
+ $('favorite').classList.toggle('on',!!st.fav);
+ $('visited').textContent=st.visited?'✓ 訪問済み':'□ 訪問前';
+ // v19: Visit order is always editable for an existing seller, even before favorite registration.
+ $('visitOrder').disabled=!current;
+ $('visitOrder').placeholder=current?'例：1':'出展情報未登録';
+ $('visitError').hidden=true;
+}
+function addVisitOrderBadges(){
+ // Draw ONE badge for each shop, even if its booth spans multiple numbered squares.
+ const svg=$('map').querySelector('svg.layoutSVG');if(!svg)return;
+ const ns='http://www.w3.org/2000/svg';
+ for(const s of floorsellers()){
+  const n=visitNumber(s);if(!n)continue;
+  const firstCode=codes(s.booth).find(c=>svg.querySelector('g.boothSVG[data-code="'+c+'"]'));
+  if(!firstCode)continue;
+  const tile=svg.querySelector('g.boothSVG[data-code="'+firstCode+'"] rect');
+  if(!tile)continue;
+  const x=Number(tile.getAttribute('x')),y=Number(tile.getAttribute('y')),
+        w=Number(tile.getAttribute('width')),h=Number(tile.getAttribute('height'));
+  // Outside the booth wherever possible, so its original number remains readable.
+  let cx=x+w+5,cy=y-2;
+  if(x>=svg.viewBox.baseVal.width*.8)cx=x-5;
+  if(y<50)cy=y+h+5;
+  if(y>svg.viewBox.baseVal.height*.8)cy=y-3;
+  const g=document.createElementNS(ns,'g');g.setAttribute('class','orderBadge');g.setAttribute('aria-label',`訪問順 ${n}: ${s.name}`);
+  const r=n>=100?10.2:n>=10?9:8;
+  const circle=document.createElementNS(ns,'circle');circle.setAttribute('cx',cx);circle.setAttribute('cy',cy);circle.setAttribute('r',r);
+  const label=document.createElementNS(ns,'text');label.setAttribute('x',cx);label.setAttribute('y',cy+3.1);label.setAttribute('text-anchor','middle');label.setAttribute('font-size',n>=100?'8':n>=10?'9':'10');label.textContent=String(n);
+  g.append(circle,label);svg.appendChild(g);
+ }
+}
+function find(code){return floorsellers().find(s=>codes(s.booth).includes(code))}
+function saveState(){try{localStorage.setItem('asakusa-ishi-v3',JSON.stringify(saved))}catch(e){alert('このブラウザではメモの保存ができないみたい')}}
+function match(s){let raw=$('query').value,q=natural(raw);if(!q)return true;const m=/^([a-zA-Z]+)[-－ ]*0*(\d{1,2})$/.exec(raw.trim());const nq=m?(m[1]+String(Number(m[2])).padStart(2,'0')).toLowerCase():q;const hay=natural(s.name+' '+s.booth+' '+s.category+' '+codes(s.booth).join(' ')+' '+(state(s).memo||''));return hay.includes(q)||hay.includes(nq)}
+function tile(prefix,n){const code=prefix+'-'+String(n).padStart(2,'0'),seller=find(code),q=natural($('query').value),hit=seller&&q&&match(seller),st=seller?state(seller):null;return `<button class="booth ${seller?'':'empty'} ${hit?'hit':''} ${st?.fav?'fav':''} ${st?.visited?'visited':''}" data-code="${code}" title="${esc(seller?seller.name:code)}">${String(n).padStart(2,'0')}</button>`}
+function tileRange(prefix,arr){return arr.map(n=>tile(prefix,n)).join('')}
+function wall(prefix,nums,label){return `<div class="walls"><div class="walltitle">${prefix} ${label}</div><div class="numbers">${tileRange(prefix,nums)}</div></div>`}
+function zone(prefix,count){return `<section class="zone"><h3>${prefix}<small>${count}区画</small></h3><div class="nums">${tileRange(prefix,Array.from({length:count},(_,i)=>i+1))}</div></section>`}
+function base(){return `<div class="venuebase"><div class="facility">階段・トイレ側 <small>会場の下側</small></div><div class="entryArrow">↑ 入り口 <em>EVホールから展示室へ</em><div class="facility">エレベーターホール　EV × 6</div></div><div class="facility">受付・階段側 <small>公式図参照</small></div></div>`}
+// Four-floor layout: manually reconstructed from the official 2026-11 booth diagram.
+// Coordinates refer to the 486 x 611 uploaded map; the screenshot is not rendered as a background.
+function svgTile(prefix,n,x,y,w=11,h=11){
+ const code=prefix+'-'+String(n).padStart(2,'0'),seller=find(code),q=natural($('query').value),hit=seller&&q&&match(seller),st=seller?state(seller):null;
+ const cls=`boothSVG ${prefix==='飲食'?'foodTile':(['A','J'].includes(prefix)?'wallTile':(['K','L','M','N'].includes(prefix)?'accTile':(['I','G','H','F'].includes(prefix)?'pinkTile':'cyanTile')))} ${!seller?'unknownSVG':''} ${hit?'hitSVG':''} ${st?.fav?'favSVG':''} ${st?.visited?'visitedSVG':''}`;
+ return `<g class="${cls}" data-code="${code}" role="button" tabindex="0" aria-label="${esc(code+(seller?' '+seller.name:''))}" title="${esc(seller?seller.name:code)}"><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="0.7"/><text x="${x+w/2}" y="${y+h/2+2.7}" text-anchor="middle" font-size="${w>=12?7.7:7.1}" font-weight="750">${n}</text></g>`
+}
+function svgH(p,nums,x,y,w=11,h=11){return nums.map((n,i)=>svgTile(p,n,x+i*w,y,w,h)).join('')}
+function svgV(p,nums,x,y,w=11,h=11){return nums.map((n,i)=>svgTile(p,n,x,y+i*h,w,h)).join('')}
+function svgIsland(p,{lx,rx,top,bottom,topnums,rows}){
+  const start=topnums[0],is24=start===16;
+  let out=`<g class="islandOutline"><rect x="${lx-5}" y="${top-6}" width="${rx-lx+24}" height="${bottom-top+23}" rx="3"/></g>`;
+  out+=svgH(p,topnums,lx,top,11,11);
+  const leftStart=is24?17:15, rightStart=is24?12:10;
+  rows.forEach((y,i)=>{out+=svgV(p,[leftStart+i*2,leftStart+i*2+1],lx,y,11,11);out+=svgV(p,[rightStart-i*2,rightStart-i*2-1],rx,y,11,11)});
+  out+=svgH(p,[1,2,3,4],lx,bottom,11,11);
+  const cy=(rows[0]+rows[rows.length-1]+18)/2;
+  out+=`<circle cx="${(lx+rx+11)/2}" cy="${cy}" r="8.2" fill="#101418"/><text x="${(lx+rx+11)/2}" y="${cy+4.1}" text-anchor="middle" fill="white" font-weight="800" font-size="11">${p}</text>`;
+  return out
+}
+function svgOuter(prefix='A'){let s='';
+ // A: top-left 45–46,43–44,41–42; top-right 40–31.
+ s+=svgH(prefix,[46,45],58,43,11,11);s+=svgH(prefix,[44,43],90,43,11,11);s+=svgH(prefix,[42,41],121,43,11,11);
+ [[40,39,259],[38,37,291],[36,35,322],[34,33,354],[32,31,382]].forEach(([a,b,x])=>s+=svgH(prefix,[a,b],x,26,10.7,11));
+ // One line down the two exterior walls, not a grid block.
+ for(let i=0;i<14;i++){let n=47+2*i; s+=svgV(prefix,[n,n+1],47,70+i*27.35,11,11)}
+ for(let i=0;i<15;i++){let n=30-2*i; s+=svgV(prefix,[n,n-1],412,54+i*27.05,11,11)}
+ // Bottom A seats by the entrance, including the isolated 81/82 pair.
+ s+=svgH(prefix,[75,76],70,478,11,11);s+=svgH(prefix,[77,78],103,478,11,11);s+=svgH(prefix,[79,80],134,478,11,11);s+=svgH(prefix,[81,82],226,473,11,11);
+ return s
+}
+function fourth(){
+ let svg=`<svg class="layoutSVG" viewBox="0 0 486 555" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="4階のブース配置。中央の島は上段 I G E C、下段 H F D B。外周にAブース。入口は下側右寄りでD-03・04の手前、4F受付はその右側の壁内。">
+ <!-- 実際の壁面の凹凸は省略して四角い展示室として表示。下側の入口だけ開けてある。 -->
+ <g fill="none" stroke="#171a1b" stroke-width="2.2" stroke-linecap="square"><path d="M28 501 V14 H445 V501 H319"/><path d="M256 501 H28"/></g>
+ <rect x="226" y="243" width="21" height="19" fill="#080c0c"/>
+ <!-- 下の施設表示は簡略化。入口と受付だけを描く -->
+ <path d="M289 532 V514" stroke="#c6413b" stroke-width="2.4" fill="none"/>
+ <path d="M289 509 l-6 9 h12 z" fill="#c6413b"/>
+ <text x="289" y="546" font-size="13" text-anchor="middle" fill="#ba3b35" font-weight="800">入口</text>
+ <rect x="330" y="478" width="70" height="18" rx="3" fill="#fff5e7" stroke="#e2b77a"/>
+ <text x="365" y="491" font-size="11.5" fill="#9f5c1c" text-anchor="middle" font-weight="800">4F受付</text>`;
+ svg+=svgOuter();
+ // I/G/E/C are the back islands, H/F/D/B the front islands.
+ const islands={
+ I:{lx:92,rx:129,top:88,bottom:209,topnums:[14,13,12,11],rows:[117,152,174]},
+ G:{lx:173,rx:211,top:68,bottom:205,topnums:[14,13,12,11],rows:[98,132,164]},
+ E:{lx:252,rx:291,top:68,bottom:205,topnums:[14,13,12,11],rows:[98,132,164]},
+ C:{lx:332,rx:371,top:68,bottom:205,topnums:[14,13,12,11],rows:[98,132,164]},
+ H:{lx:94,rx:129,top:267,bottom:431,topnums:[16,15,14,13],rows:[295,329,363,395]},
+ F:{lx:173,rx:210,top:299,bottom:431,topnums:[14,13,12,11],rows:[327,360,393]},
+ D:{lx:252,rx:290,top:299,bottom:431,topnums:[14,13,12,11],rows:[327,360,393]},
+ B:{lx:333,rx:370,top:267,bottom:431,topnums:[16,15,14,13],rows:[295,329,363,395]}
+ };
+ for(let p of ['I','G','E','C','H','F','D','B'])svg+=svgIsland(p,islands[p]);
+ // Food booth 01-04, near the upper-left inner corner.
+ svg+=svgH('飲食',[4,3,2,1],180,27,9,11);
+ svg+=`</svg>`;
+ return `<div class="exactInfo">4階：公式図の位置関係に沿ったタップできる配置図。番号を押すとお店の詳細が出るよ。</div><div class="mapZoom">${svg}</div>`
+}
+
+// 2026-11-21 5F: booth coordinates hand-transcribed from the uploaded official Saturday map.
+// Original file is not used as a background image. All booths are interactive SVG elements.
+function svgTile5(prefix,n,x,y,w=11,h=11){
+ const code=prefix+'-'+String(n).padStart(2,'0'), seller=find(code), q=natural($('query').value),hit=seller&&q&&match(seller),st=seller?state(seller):null;
+ let shade='cyanTile';
+ if(prefix==='J'){
+   if((n>=25&&n<=58))shade='pinkTile';
+   else if(n>=59&&n<=78)shade='cyanTile';
+   else shade='accTile';
+ } else if(prefix==='R'||prefix==='P')shade='pinkTile';
+ else if(prefix==='N'||prefix==='L'||prefix==='K')shade='accTile';
+ else if(prefix==='M')shade=(n<=2||n>=13)?'cyanTile':'accTile';
+ else if(prefix==='O')shade=(n===17||n===18)?'pinkTile':'cyanTile';
+ const cls=`boothSVG ${shade} ${!seller?'unknownSVG':''} ${hit?'hitSVG':''} ${st?.fav?'favSVG':''} ${st?.visited?'visitedSVG':''}`;
+ return `<g class="${cls}" data-code="${code}" role="button" tabindex="0" aria-label="${esc(code+(seller?' '+seller.name:''))}" title="${esc(seller?seller.name:code)}"><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="0.65"/><text x="${x+w/2}" y="${y+h/2+2.7}" text-anchor="middle" font-size="7.05" font-weight="750">${n}</text></g>`
+}
+function svgH5(p,nums,x,y,w=11,h=11){return nums.map((n,i)=>svgTile5(p,n,x+i*w,y,w,h)).join('')}
+function svgV5(p,nums,x,y,w=11,h=11){return nums.map((n,i)=>svgTile5(p,n,x,y+i*h,w,h)).join('')}
+function island5(p, lx, rx, top, bottom, rows, is24){
+ const topnumbers=is24?[16,15,14,13]:[14,13,12,11];
+ let out='';
+ out+=`<g class="islandOutline"><rect x="${lx-5}" y="${top-6}" width="${rx-lx+27}" height="${bottom-top+18}" rx="2"/></g>`;
+ out+=svgH5(p,topnumbers.slice(0,2),lx,top,11,11);
+ out+=svgH5(p,topnumbers.slice(2),rx,top,11,11);
+ const l=is24?17:15, r=is24?12:10;
+ for(let i=0;i<rows.length;i++){
+   out+=svgV5(p,[l+i*2,l+i*2+1],lx+2,rows[i],11,11);
+   out+=svgV5(p,[r-i*2,r-i*2-1],rx+6,rows[i],11,11);
+ }
+ out+=svgH5(p,[1,2],lx,bottom,11,11);
+ out+=svgH5(p,[3,4],rx,bottom,11,11);
+ const cy=(rows[0]+rows[rows.length-1]+23)/2;
+ out+=`<circle cx="${(lx+rx+13)/2}" cy="${cy}" r="8" fill="#101418"/><text x="${(lx+rx+13)/2}" y="${cy+4}" text-anchor="middle" fill="white" font-weight="800" font-size="11">${p}</text>`;
+ return out
+}
+function outer5(){let s='';
+ // Top-left vertical pair J45-46.
+ s+=svgV5('J',[45,46],49,81,11,10.9);
+ // Along top, in original drawing order.
+ for (const [numbers,x] of [ [[44,43],131],[[42,41],173],[[40,39],197],[[38,37],269],[[36,35],293],[[34,33],316],[[32,31],347],[[30,29],377] ])s+=svgH5('J',numbers,x,68,11,11);
+ // Left wall J47-J72, two high, one column (13 pairs).
+ for(let i=0;i<13;i++)s+=svgV5('J',[47+2*i,48+2*i],49,113+i*29.8,11,11);
+ // Right wall J28-J01, two high, one column (14 pairs).
+ for(let i=0;i<14;i++)s+=svgV5('J',[28-2*i,27-2*i],412,96+i*29.7,11,11);
+ // Lower perimeter J73-J82, placed per Saturday official drawing.
+ for(const [nums,x] of [ [[73,74],68],[[75,76],107],[[77,78],148],[[79,80],211],[[81,82],239] ])s+=svgH5('J',nums,x,514,11,11);
+ return s
+}
+function fifthSaturday(){
+ let svg=`<svg class="layoutSVG" viewBox="0 0 462 580" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="11月21日土曜5階の配置図。奥R・P・N・L、入口側Q・O・M・K。Jは外周、入口は下側右寄り、受付は右下。">
+ <!-- Simplified rectangular room, with the entrance opening, from provided plan -->
+ <g fill="none" stroke="#171a1b" stroke-width="2.2" stroke-linecap="square"><path d="M29 530 V52 H431 V530 H305"/><path d="M273 530 H29"/></g>
+ <rect x="227" y="278" width="23" height="22" fill="#080c0c"/>
+ <path d="M289 559 V535" stroke="#c6413b" stroke-width="2.7" fill="none"/>
+ <path d="M289 530 l-7 11 h14 z" fill="#c6413b"/>
+ <text x="289" y="574" font-size="13" text-anchor="middle" fill="#ba3b35" font-weight="800">入口</text>
+ <rect x="321" y="502" width="75" height="22" rx="3" fill="#fff5e7" stroke="#e2b77a"/>
+ <text x="358.5" y="517.5" font-size="12" fill="#9f5c1c" text-anchor="middle" font-weight="800">5F受付</text>`;
+ svg+=outer5();
+ // Upper: all four islands start/end on the same horizontal line.
+ for(const [p,lx,rx] of [['R',92,122],['P',172,202],['N',252,282],['L',332,362]])svg+=island5(p,lx,rx,112,248,[142,179,216],false);
+ // Lower: Q/K are longer, O/M start a little below Q/K, as in official plan.
+ svg+=island5('Q',92,122,312,477,[344,378,411,446],true);
+ svg+=island5('O',172,202,341,477,[375,411,446],false);
+ svg+=island5('M',252,282,341,477,[375,411,446],false);
+ svg+=island5('K',332,362,312,477,[344,378,411,446],true);
+ svg+=`</svg>`;
+ return `<div class="exactInfo">5階・11/21（土）：提供してもらった公式配置図に合わせて、J外周とR〜Kの島・番号の並びを修正したよ。部屋は長方形に簡略化してあるよ。</div><div class="mapZoom">${svg}</div>`
+}
+
+function fifth(){
+ if(day==='sat') return fifthSaturday();
+ // This is a working, tappable 5F schematic derived from the standard island structure.
+ // Important: 2026 November 5F plan could not be inspected, so positions are not verified.
+ let svg=`<svg class="layoutSVG" viewBox="0 0 486 555" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="5階ブース暫定配置。入口は下側のやや右。ブース番号から出展者の詳細を見ることができます。">
+ <!-- 壁線はブースの外側に余白を確保。下側は入口で途切れるようにする。 -->
+ <g fill="none" stroke="#171a1b" stroke-width="2.2" stroke-linecap="square"><path d="M28 501 V14 H445 V501 H281"/><path d="M218 501 H28"/></g>
+ <rect x="226" y="243" width="21" height="19" fill="#080c0c"/>
+ <!-- 開いた入口から会場内へ進む方向を示す。 -->
+ <path d="M252 529 V498" stroke="#c6413b" stroke-width="2.8" fill="none"/>
+ <path d="M252 488 l-7 12 h14 z" fill="#c6413b"/>
+ <text x="252" y="545" font-size="13" text-anchor="middle" fill="#ba3b35" font-weight="800">入口</text>
+ <rect x="310" y="474" width="86" height="19" rx="3" fill="#fff5e7" stroke="#e2b77a"/>
+ <text x="353" y="488" font-size="11.5" fill="#9f5c1c" text-anchor="middle" font-weight="800">5F受付</text>`;
+ if(day==='fri'){
+  // Friday exhibitors only occupy J 01-22 and K 01-24 in the list.
+  // Layout is intentionally sparse, not a Saturday map with ghost booths.
+  svg+=svgV('J',[...Array(22)].map((_,i)=>22-i),412,84,11,17.5);
+  svg+=svgIsland('K',{lx:333,rx:370,top:267,bottom:431,topnums:[16,15,14,13],rows:[295,329,363,395]});
+  svg+=`<text x="180" y="212" font-size="15" font-weight="700" fill="#9daeb1" text-anchor="middle">金曜は5階の出展範囲が小さめ</text>`;
+ }else{
+  svg+=svgOuter('J');
+  const islands={
+   // The old v14 alphabet blocks were laid out as R Q P O / N M L K.
+   // Arrange the 20-space islands behind and the 24-space islands on the two
+   // front corners, following the numbering/parity pattern visible on 4F.
+   // Still NOT confirmed against the November 2026 official 5F plan.
+   R:{lx:92,rx:129,top:88,bottom:209,topnums:[14,13,12,11],rows:[117,152,174]},
+   P:{lx:173,rx:211,top:68,bottom:205,topnums:[14,13,12,11],rows:[98,132,164]},
+   N:{lx:252,rx:291,top:68,bottom:205,topnums:[14,13,12,11],rows:[98,132,164]},
+   L:{lx:332,rx:371,top:68,bottom:205,topnums:[14,13,12,11],rows:[98,132,164]},
+   Q:{lx:94,rx:129,top:267,bottom:431,topnums:[16,15,14,13],rows:[295,329,363,395]},
+   O:{lx:173,rx:210,top:299,bottom:431,topnums:[14,13,12,11],rows:[327,360,393]},
+   M:{lx:252,rx:290,top:299,bottom:431,topnums:[14,13,12,11],rows:[327,360,393]},
+   K:{lx:333,rx:370,top:267,bottom:431,topnums:[16,15,14,13],rows:[295,329,363,395]}
+  };
+  for(let prefix of ['R','P','N','L','Q','O','M','K']) svg+=svgIsland(prefix,islands[prefix]);
+ }
+ svg+=`</svg>`;
+ return `<div class="exactInfo" style="color:#87531b">5階・金曜：配置図未確認のため暫定。土曜は公式図に合わせた配置を利用できるよ。</div><div class="mapZoom">${svg}</div>`
+}
+function render(){
+ const people=floorsellers(),res=people.filter(s=>match(s)&&(tab!=='fav'||state(s).fav));
+ if(tab==='fav')res.sort(sortByVisitOrder);
+ const planned=people.filter(s=>visitNumber(s)).length;
+ $('stats').textContent=`${day==='fri'?'11/20（金）':'11/21（土）'}・${floor}階　該当 ${res.length}店（登録 ${people.length}店）／訪問順登録 ${planned}店`;
+ $('maparea').classList.toggle('hidden',tab!=='map');
+ $('mapLegend').classList.toggle('hidden',tab!=='map');
+ $('officialarea').classList.toggle('hidden',tab!=='official');
+ $('listarea').classList.toggle('hidden',tab==='map'||tab==='official');
+ if(tab==='map'){
+  $('map').innerHTML=floor===4?fourth():fifth();
+  addVisitOrderBadges();
+ }
+ if(tab==='official'){
+  let i=(day==='fri'?0:2)+(floor===4?0:1);
+  $('officialtitle').textContent=`${day==='fri'?'11/20（金）':'11/21（土）'}・${floor}階　公式図`;
+  $('officialimg').style.setProperty('--left',`-${i*100}%`);
+  $('officialimg').src='https://takama.ne.jp/isi_fleamarket/202611_ALL.png';
+ }
+ if(tab==='list'||tab==='fav'){
+  $('entries').innerHTML=res.length?res.map(s=>{
+   const n=visitNumber(s);
+   return `<button class="entry" data-name="${esc(s.name)}" data-booth="${esc(s.booth)}"><span style="display:flex;align-items:center">${n?`<span class="listBadge" aria-label="訪問順 ${n}">${n}</span>`:''}<span><b>${state(s).fav?'★ ':''}${esc(s.name)}</b><small>${esc(s.category)}${tab==='fav'&&!n?' ・ 訪問順未設定':''}</small></span></span><span class="code">${floor}F ${esc(s.booth)}</span></button>`;
+  }).join(''):'<div class="nohits">該当するお店がないよ。日付・階を確認してね。</div>';
+ }
+}
+function change(d,f,t){day=d;floor=f;tab=t;document.querySelectorAll('[data-day]').forEach(e=>e.classList.toggle('on',e.dataset.day===day));document.querySelectorAll('[data-floor]').forEach(e=>e.classList.toggle('on',+e.dataset.floor===floor));document.querySelectorAll('[data-tab]').forEach(e=>e.classList.toggle('on',e.dataset.tab===tab));render()}
+function show(s,code){
+ current=s||null;
+ $('detailTitle').textContent=s?s.name:'出展情報未登録';
+ $('location').textContent=s?`${s.floor}階　${s.booth}`:`${floor}階 ${code}`;
+ $('category').textContent=s?s.category:'対応する出展者が登録されていない番号です';
+ $('detailExtra').textContent=code?`選択した番号：${code}`:'';
+ $('memo').disabled=!s;$('favorite').disabled=!s;$('visited').disabled=!s;$('save').disabled=!s;
+ let st=s?state(s):{fav:false,visited:false,memo:'',visitOrder:null};
+ $('memo').value=st.memo||'';
+ $('visitOrder').value=s?(visitNumber(s)||''):'';
+ if(!s)$('visitOrder').value='';
+ refreshDetailActions(st);
+ $('modal').classList.add('show');
+}
+function close(){$('modal').classList.remove('show');current=null}
+document.querySelectorAll('[data-day]').forEach(e=>e.onclick=()=>change(e.dataset.day,floor,tab));document.querySelectorAll('[data-floor]').forEach(e=>e.onclick=()=>change(day,+e.dataset.floor,tab));document.querySelectorAll('[data-tab]').forEach(e=>e.onclick=()=>change(day,floor,e.dataset.tab));$('query').oninput=()=>{let q=natural($('query').value);if(q){let hit=all().find(s=>match(s));if(hit && hit.floor!==floor){change(day,hit.floor,tab);return}}render()};$('clear').onclick=()=>{$('query').value='';render()};$('map').onclick=e=>{const b=e.target.closest('[data-code]');if(b)show(find(b.dataset.code),b.dataset.code)};$('map').onkeydown=e=>{if((e.key==='Enter'||e.key===' ')&&e.target.matches('g[data-code]')){e.preventDefault();const b=e.target;show(find(b.dataset.code),b.dataset.code)}};$('entries').onclick=e=>{const b=e.target.closest('button[data-name]');if(b)show(all().find(s=>s.name===b.dataset.name&&s.booth===b.dataset.booth))};$('favorite').onclick=()=>{
+ if(!current)return;
+ const st=state(current);st.fav=!st.fav;
+ if(!st.fav){st.visitOrder=null;$('visitOrder').value='';}
+ saveState();refreshDetailActions(st);render();
+};
+$('visited').onclick=()=>{
+ if(!current)return;
+ const st=state(current);st.visited=!st.visited;
+ saveState();refreshDetailActions(st);render();
+};
+$('save').onclick=()=>{
+ if(!current)return;
+ const st=state(current), raw=$('visitOrder').value.trim();
+ let newOrder=null;
+ if(raw!==''){
+  const num=Number(raw);
+  if(!/^[0-9]+$/.test(raw)||!Number.isInteger(num)||num<1||num>999){
+   $('visitError').textContent='訪問順には1〜999の整数を入れてね。';$('visitError').hidden=false;$('visitOrder').focus();return;
+  }
+  const conflict=all().find(s=>key(s)!==key(current)&&state(s).fav&&visitNumber(s)===num);
+  if(conflict){
+   $('visitError').textContent=`${num}番は「${conflict.name}」（${conflict.floor}F）で使用中だよ。別の番号にしてね。`;
+   $('visitError').hidden=false;$('visitOrder').focus();return;
+  }
+  newOrder=num;
+ }
+ if(newOrder!==null) st.fav=true; // Saving an order automatically adds to favorites.
+ st.memo=$('memo').value;st.visitOrder=newOrder;
+ saveState();render();close();
+};
+$('visitOrder').oninput=()=>{$('visitError').hidden=true};
+$('cancel').onclick=close;$('close').onclick=close;
+$('modal').onclick=e=>{if(e.target===$('modal'))close()};
+document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
+$('officialimg').onerror=()=>{$('officialerror').style.display='block'};change('sat',4,'map');
+</script></body></html>
