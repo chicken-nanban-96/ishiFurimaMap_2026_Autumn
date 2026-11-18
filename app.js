@@ -4,7 +4,7 @@ function startApp(SHOPS,MAP_DATA){
 const DATA=SHOPS.shops;
 document.title=SHOPS.title+' | 訪問順';
 document.querySelector('h1').textContent='💎 '+SHOPS.title;
-document.querySelector('header p').textContent=SHOPS.subtitle;
+document.getElementById('eventSubtitle').textContent=SHOPS.subtitle;
 document.querySelectorAll('[data-day]').forEach(btn=>{btn.textContent=SHOPS.dates[btn.dataset.day]?.label||btn.dataset.day});
 document.getElementById('venueNotice').textContent=MAP_DATA.notes||'';
 for(const [d,id] of [['fri','officialFriLink'],['sat','officialSatLink']]){
@@ -80,7 +80,7 @@ function renderLayout(layoutId){
  const svg=`<svg class="layoutSVG" viewBox="${esc(m.viewBox)}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(m.description)}">`+
  m.background.join('')+m.booths.map(renderMapTile).join('')+m.foreground.join('')+'</svg>';
  let note=layoutId==='hall5_fri'?'金曜5階の位置は暫定だよ。':`ブースを押すとお店の詳細を表示するよ。`;
- return `<div class="exactInfo">${note}</div><div class="mapZoom">${svg}</div>`;
+ return `<div class="mapZoom">${svg}</div><div class="exactInfo">${note}</div>`;
 }
 function fourth(){return renderLayout('hall4')}
 function fifth(){return renderLayout(MAP_DATA.days[day]?.[String(floor)]||'')}

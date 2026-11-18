@@ -67,3 +67,46 @@
 .backupActions .dangerInfo{color:#a54831}
 #loadStatus{font-size:12px;color:#536f76;margin-top:6px}
 #fatalError{display:none;background:#fff5de;border:1px solid #e7c888;border-radius:12px;padding:14px;color:#6e4c19;white-space:pre-wrap;line-height:1.7;margin:15px 0}
+
+/* v22: Compact mobile-first UI. Leave map geometry and existing interaction styles untouched. */
+.compactHeader{padding:11px 13px;background:linear-gradient(110deg,#173f48,#2b6263)}
+.compactHeader h1{font-size:17px;line-height:1.35;margin:0}
+main{padding:9px 10px 22px}
+.mapControls{display:grid;gap:7px;margin-bottom:7px}
+.mapControls .choices{margin:0;gap:6px}
+.mapControls .choices button{padding:8px 5px;min-height:39px}
+.mapControls .searchrow{margin:0;gap:6px}
+.mapControls .searchrow input{padding:10px 12px;min-height:40px}
+.mapControls .searchrow button{padding:7px 10px}
+.mapControls .tabs button{font-size:13px}
+.zoomToolbar{justify-content:flex-end;gap:7px;margin:4px 0 8px;padding:6px 8px}
+.zoomToolbar .zoomPercent{margin-right:auto}
+.zoomToolbar button{height:34px}
+.mapZoom{border-color:#c7dadd}
+.exactInfo{font-weight:400;color:#698087;font-size:11px;margin:7px 2px 12px}
+.stats{font-size:11px;color:#72858a;margin:9px 2px 12px;line-height:1.5}
+.mapLegend,.backupSection,.eventInfo{margin:8px 0;border:1px solid #d8e5e5;background:white;border-radius:10px;padding:0;font-size:12px;color:#38535b}
+.mapLegend summary,.backupSection summary,.eventInfo summary{display:list-item;list-style-position:inside;cursor:pointer;padding:12px;font-size:13px;font-weight:700;color:#28535b;user-select:none}
+.mapLegend summary::marker,.backupSection summary::marker,.eventInfo summary::marker{color:#3c727d}
+.legendContents,.detailContent{padding:0 12px 13px}
+.legendContents .legendTitle:first-child{margin-top:0}
+.legendItems span{white-space:normal}
+.backupSection h2{display:none}
+.backupSection p{margin:0 0 12px}
+.eventInfo .infoNote{font-size:12px;line-height:1.6;margin:7px 0;color:#58727a}
+.eventInfo p{line-height:1.6;margin:7px 0}
+.eventInfo .credits{font-size:11px;margin:8px 0 0}
+.infoLinks{display:flex;flex-wrap:wrap;gap:8px 15px;margin-top:9px}
+.infoLinks a,.linkButton{font-size:12px;color:#236f79}
+.linkButton{border:0;background:transparent;padding:0;text-decoration:underline;cursor:pointer}
+.infoLinks .on{font-weight:800}
+#fatalError{margin:4px 0 12px}
+@media(max-width:440px){
+ main{padding:8px}
+ .compactHeader{padding:10px 11px}
+ .compactHeader h1{font-size:17px}
+ .mapControls{gap:6px}
+ .mapControls .choices button{font-size:12px;min-height:37px;padding:7px 3px}
+ .zoomToolbar{padding:5px 6px;gap:6px}
+ .zoomToolbar button{min-width:38px;height:34px}
+}

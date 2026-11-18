@@ -1,38 +1,70 @@
-<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>浅草石フリマ マイマップ v20 | 訪問順</title><link rel="stylesheet" href="./styles.css"></head><body>
-<header><h1>💎 浅草石フリマ マイマップ</h1><p>2026年11月20日（金）・21日（土）｜台東館4階・5階</p></header><main>
-<div class="notice" id="venueNotice">会場データを読み込んでいるよ。</div>
-<div class="choices days"><button data-day="fri">11/20（金）</button><button data-day="sat">11/21（土）</button></div><div class="choices floors"><button data-floor="4">4階</button><button data-floor="5">5階</button></div><div class="searchrow"><input id="query" type="search" placeholder="店名・ブース番号で検索（例：石部、P-07）"><button id="clear">クリア</button></div>
-<div class="choices tabs"><button data-tab="map">簡略マップ</button><button data-tab="official">公式配置図</button><button data-tab="list">店舗一覧</button><button data-tab="fav">お気に入り</button></div>
-<div class="stats" id="stats"></div>
-
-<section id="maparea" class="scroll">
-<div class="zoomToolbar" role="group" aria-label="地図の拡大・縮小">
-<span class="zoomTitle">地図の拡大・縮小</span>
-<button id="zoomOut" type="button" aria-label="地図を縮小">−</button>
-<span id="zoomLabel" class="zoomPercent" aria-live="polite">100%</span>
-<button id="zoomIn" type="button" aria-label="地図を拡大">＋</button>
-<button id="zoomReset" type="button" title="元の大きさ">100%</button>
-<button id="zoomFit" type="button" title="地図を画面の横幅に収める">全体</button>
-</div>
-<p class="zoomHelp">拡大後は指で地図を動かせるよ。2本指のピンチ操作にも対応。</p>
-<div id="map"></div></section>
-<div id="mapLegend" class="mapLegend" aria-label="地図の色の凡例">
- <div class="legendTitle">ブースの色（エリア別）</div>
- <div class="legendItems"><span><i class="swatch swatchPink"></i>ピンク：ピンク色の区画</span><span><i class="swatch swatchCyan"></i>水色：水色の区画</span><span><i class="swatch swatchYellow"></i>黄緑：4階の外周</span><span><i class="swatch swatchAcc"></i>薄緑：5階の緑色の区画</span><span><i class="swatch swatchPurple"></i>紫：飲食</span></div>
- <div class="legendTitle">マイマップの表示</div>
- <div class="legendItems"><span><i class="swatch swatchHit"></i>明るい緑：検索ヒット</span><span><i class="swatch swatchFav"></i>オレンジ枠：お気に入り</span><span><i class="swatch swatchOrder"></i>丸数字：お気に入りの訪問順</span><span><i class="swatch swatchUnknown"></i>薄色：出展情報未登録</span></div>
-</div>
-<section id="officialarea" class="hidden officialpanel"><div class="mapIntro" id="officialtitle"></div><div class="officialframe"><img id="officialimg" alt="2026浅草石フリマ冬の公式配置図。入口・エレベーターとブースの位置関係が確認できます。"><p id="officialerror" class="officialerror">公式画像が読み込めなかったよ。下のリンクから開いてね。</p></div><p>画像は公式サイトから読み込む方式のため、閲覧できない場合があるよ。<strong>番号タップで詳細を見たい場合は「簡略マップ」へ</strong>戻ってね。</p><p><a href="https://takama.ne.jp/isi_fleamarket/202611_ALL.png" target="_blank" rel="noopener">公式の全体配置図を別画面で開く</a></p></section>
-<section id="listarea" class="hidden"><div id="entries" class="entries"></div></section>
-<footer class="credits">出展情報：<a id="officialFriLink" href="https://takama.ne.jp/isi_fleamarket/20261120_fri.html" target="_blank" rel="noopener">金曜公式リスト</a>／<a id="officialSatLink" href="https://takama.ne.jp/isi_fleamarket/20261121_sat.html" target="_blank" rel="noopener">土曜公式リスト</a>。配置図は別ファイルの map.json から読み込んで表示。GitHub Pages上で店舗・配置ファイルを読み込んで表示するよ。v19〜v21の記録は最初のアクセス時に引き継ぐよ。個人の記録はブラウザ内に保存され、公開リポジトリには送られないよ。</footer><section class="backupSection" aria-label="個人記録のバックアップ">
-<h2>💾 お気に入り・訪問順・メモのバックアップ</h2>
-<p>記録はこのiPhoneのSafari内に自動保存されるよ。「バックアップ」でJSONファイルを書き出しておくと、別の端末やブラウザにも移せるよ。<strong>個人用バックアップは公開GitHubにアップロードしないでね。</strong></p>
-<div class="backupActions">
-<button id="memoryExport" type="button">記録をバックアップ（保存）</button>
-<button id="memoryImport" type="button">記録を読み込む</button>
-<input type="file" id="memoryFile" accept=".json,application/json" hidden>
-</div><div id="backupStatus" role="status"></div>
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>浅草石フリマ マイマップ</title>
+<link rel="stylesheet" href="./styles.css?v=22">
+</head>
+<body>
+<header class="compactHeader"><h1>💎 浅草石フリマ マイマップ</h1></header>
+<main>
+<section class="mapControls" aria-label="マップ操作">
+  <div class="choices days" aria-label="開催日"><button data-day="fri">11/20（金）</button><button data-day="sat">11/21（土）</button></div>
+  <div class="choices floors" aria-label="階"><button data-floor="4">4階</button><button data-floor="5">5階</button></div>
+  <div class="searchrow"><input id="query" type="search" aria-label="店舗・ブースを検索" placeholder="店舗名・ブース番号で検索"><button id="clear" type="button">クリア</button></div>
+  <div class="choices tabs" aria-label="表示の切り替え"><button data-tab="map">地図</button><button data-tab="fav">お気に入り</button><button data-tab="list">店舗一覧</button></div>
 </section>
-<div id="fatalError" role="alert"></div></main>
-<div id="modal" class="modal"><div class="sheet" role="dialog" aria-modal="true"><div class="sheethead"><h2 id="detailTitle"></h2><button id="close" class="x" aria-label="閉じる">×</button></div><div class="place" id="location"></div><div class="category" id="category"></div><div class="extra" id="detailExtra"></div><div class="visitOrderBox"><label for="visitOrder">🔢 訪問順（1〜999）</label><div class="visitOrderLine"><input id="visitOrder" type="number" inputmode="numeric" min="1" max="999" step="1" placeholder="例：1"><p>先にお気に入りを押さなくても入力OK。数字を保存すると自動でお気に入りにも登録するよ。空欄で順番を解除。</p></div><p id="visitError" class="visitError" role="alert" hidden></p></div><label for="memo">✎ 自分用メモ</label><textarea id="memo" placeholder="気になる石、予算、石友さんへのご挨拶など"></textarea><div class="actions"><button id="favorite">☆ お気に入り</button><button id="visited">□ 訪問前</button></div><div class="actions"><button id="cancel">閉じる</button><button id="save" class="primary">順番・メモを保存</button></div></div></div>
-<script src="./app.js" defer></script></body></html>
+<div id="fatalError" role="alert"></div>
+<section id="maparea" class="scroll">
+  <div class="zoomToolbar" role="group" aria-label="地図の拡大と縮小">
+    <button id="zoomOut" type="button" aria-label="地図を縮小">−</button>
+    <span id="zoomLabel" class="zoomPercent" aria-live="polite">100%</span>
+    <button id="zoomIn" type="button" aria-label="地図を拡大">＋</button>
+    <button id="zoomReset" type="button" title="元の大きさ">戻す</button>
+    <button id="zoomFit" type="button" title="地図を画面の横幅に収める">全体</button>
+  </div>
+  <div id="map"></div>
+</section>
+<section id="officialarea" class="hidden officialpanel">
+  <div class="mapIntro" id="officialtitle"></div>
+  <div class="officialframe"><img id="officialimg" alt="公式配置図"><p id="officialerror" class="officialerror">公式画像を読み込めなかったよ。下のリンクから確認してね。</p></div>
+  <p>公式図の画像表示には通信が必要だよ。番号タップで店名を見るときは上の「地図」に戻ってね。</p>
+  <p><a href="https://takama.ne.jp/isi_fleamarket/202611_ALL.png" target="_blank" rel="noopener">公式の全体配置図を開く</a></p>
+</section>
+<section id="listarea" class="hidden"><div id="entries" class="entries"></div></section>
+<details id="mapLegend" class="mapLegend">
+  <summary>色の凡例を表示</summary>
+  <div class="legendContents">
+    <div class="legendTitle">ブースの色（エリア別）</div>
+    <div class="legendItems"><span><i class="swatch swatchPink"></i>ピンク</span><span><i class="swatch swatchCyan"></i>水色</span><span><i class="swatch swatchYellow"></i>4階外周</span><span><i class="swatch swatchAcc"></i>5階緑色</span><span><i class="swatch swatchPurple"></i>飲食</span></div>
+    <div class="legendTitle">マイマップの表示</div>
+    <div class="legendItems"><span><i class="swatch swatchHit"></i>検索ヒット</span><span><i class="swatch swatchFav"></i>お気に入り</span><span><i class="swatch swatchOrder"></i>訪問順の数字</span><span><i class="swatch swatchUnknown"></i>店舗未登録</span></div>
+  </div>
+</details>
+<div class="stats" id="stats"></div>
+<details class="backupSection" aria-label="個人記録のバックアップ">
+  <summary>💾 記録のバックアップ・復元</summary>
+  <div class="detailContent">
+    <p>お気に入り・訪問順・メモ・訪問済みはSafari内に自動保存されるよ。機種変更や万一に備えてバックアップできるよ。<strong>個人用バックアップは公開GitHubにアップロードしないでね。</strong></p>
+    <div class="backupActions"><button id="memoryExport" type="button">記録をバックアップ</button><button id="memoryImport" type="button">記録を読み込む</button><input type="file" id="memoryFile" accept=".json,application/json" hidden></div>
+    <div id="backupStatus" role="status"></div>
+  </div>
+</details>
+<details class="eventInfo">
+  <summary>開催情報・補足・公式リンク</summary>
+  <div class="detailContent">
+    <p id="eventSubtitle"></p>
+    <p id="venueNotice" class="infoNote">会場情報を読み込んでいるよ。</p>
+    <div class="infoLinks">
+      <a id="officialFriLink" href="https://takama.ne.jp/isi_fleamarket/20261120_fri.html" target="_blank" rel="noopener">金曜の公式出展者一覧</a>
+      <a id="officialSatLink" href="https://takama.ne.jp/isi_fleamarket/20261121_sat.html" target="_blank" rel="noopener">土曜の公式出展者一覧</a>
+      <button type="button" class="linkButton" data-tab="official">公式配置図を表示</button>
+    </div>
+    <p class="credits">店舗と配置は別ファイルから読み込み。個人の記録は端末内で保存され、GitHubには送信されないよ。</p>
+  </div>
+</details>
+</main>
+<div class="modal" id="modal"><div aria-modal="true" class="sheet" role="dialog"><div class="sheethead"><h2 id="detailTitle"></h2><button aria-label="閉じる" class="x" id="close">×</button></div><div class="place" id="location"></div><div class="category" id="category"></div><div class="extra" id="detailExtra"></div><div class="visitOrderBox"><label for="visitOrder">🔢 訪問順（1〜999）</label><div class="visitOrderLine"><input id="visitOrder" inputmode="numeric" max="999" min="1" placeholder="例：1" step="1" type="number"/><p>先にお気に入りを押さなくても入力OK。数字を保存すると自動でお気に入りにも登録するよ。空欄で順番を解除。</p></div><p class="visitError" hidden="" id="visitError" role="alert"></p></div><label for="memo">✎ 自分用メモ</label><textarea id="memo" placeholder="気になる石、予算、石友さんへのご挨拶など"></textarea><div class="actions"><button id="favorite">☆ お気に入り</button><button id="visited">□ 訪問前</button></div><div class="actions"><button id="cancel">閉じる</button><button class="primary" id="save">順番・メモを保存</button></div></div></div>
+<script src="./app.js?v=22" defer></script>
+</body></html>
