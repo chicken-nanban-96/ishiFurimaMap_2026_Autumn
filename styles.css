@@ -110,3 +110,7 @@ main{padding:9px 10px 22px}
  .zoomToolbar{padding:5px 6px;gap:6px}
  .zoomToolbar button{min-width:38px;height:34px}
 }
+
+/* v23: Favorite border must override every tile category color (including food/purple and accent/green) and search highlighting. */
+.layoutSVG .boothSVG.favSVG rect{stroke:#e07900!important;stroke-width:2.5!important}
+.layoutSVG .boothSVG.favSVG:focus-visible rect{stroke:#1567a6!important;stroke-width:2.8!important}
