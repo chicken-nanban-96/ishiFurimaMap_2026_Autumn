@@ -114,3 +114,13 @@ main{padding:9px 10px 22px}
 /* v23: Favorite border must override every tile category color (including food/purple and accent/green) and search highlighting. */
 .layoutSVG .boothSVG.favSVG rect{stroke:#e07900!important;stroke-width:2.5!important}
 .layoutSVG .boothSVG.favSVG:focus-visible rect{stroke:#1567a6!important;stroke-width:2.8!important}
+
+/* v24: compact attendance labels in Favorites and Shop lists. */
+.entryMain{display:flex;align-items:center;min-width:0;flex:1;gap:0}
+.entryText{min-width:0}
+.entryMeta{display:flex;flex-wrap:wrap;align-items:center;gap:4px 7px;margin-top:4px}
+.entryMeta small{margin:0;line-height:1.4}
+.dayPill{display:inline-flex;align-items:center;white-space:nowrap;border-radius:5px;padding:2px 6px;font-size:11px;font-weight:750;line-height:1.35}
+.dayPill.both{background:#e3f3e9;color:#225e44}
+.dayPill.dayFri{background:#fff0d7;color:#865720}
+.dayPill.daySat{background:#ede9fb;color:#574493}

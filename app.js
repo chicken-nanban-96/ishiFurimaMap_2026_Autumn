@@ -27,6 +27,21 @@ const COUNT={4:{A:82,B:24,C:20,D:20,E:20,F:20,G:20,H:24,I:16},5:{J:82,K:24,L:20,
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));const natural=s=>String(s??'').toLowerCase().normalize('NFKC').replace(/[\sー－\-~〜～・]/g,'');
 function codes(booth){let s=String(booth).normalize('NFKC').replace(/〜/g,'～').replace(/~/g,'～');let m=s.match(/^([A-Z]+)-?(.*)$/),prefix=m?m[1]:'飲食',t=m?m[2]:s;let a=t.includes('～')?(()=>{let [x,y]=t.split('～').map(Number);return Array.from({length:Math.max(0,Math.min(100,y-x+1))},(_,i)=>x+i)})():[...t.matchAll(/\d+/g)].map(x=>+x[0]);return a.map(n=>prefix+'-'+String(n).padStart(2,'0'))}
 const all=()=>DATA[day];const floorsellers=()=>all().filter(s=>s.floor===floor);const key=s=>`${day}|${s.floor}|${s.booth}|${s.name}`;const state=s=>saved[key(s)]||(saved[key(s)]={fav:false,visited:false,memo:'',visitOrder:null});
+// A shop's attendance is determined across BOTH days and ALL floors.
+// Match full normalized shop names, not booth numbers (booths can move each day).
+const shopNameKey=name=>String(name??'').normalize('NFKC').toLocaleLowerCase().replace(/\s+/g,' ').trim();
+const attendanceIndex=Object.fromEntries(Object.entries(DATA).map(([d,items])=>[d,new Set(items.map(s=>shopNameKey(s.name)))]));
+function shopAttendance(s){
+ const name=shopNameKey(s.name);
+ const days=Object.keys(attendanceIndex).filter(d=>attendanceIndex[d].has(name));
+ if(days.length>1)return {text:'両日',css:'both'};
+ const sole=days[0]||day;
+ const date=SHOPS.dates[sole]?.date||'';
+ const n=date.match(/-(\d{1,2})$/)?.[1];
+ const label=n?`${Number(n)}日のみ`:`${SHOPS.dates[sole]?.label||sole}のみ`;
+ return {text:label,css:sole==='fri'?'dayFri':'daySat'};
+}
+
 function visitNumber(s){const st=state(s),n=Number(st.visitOrder);return st.fav&&Number.isInteger(n)&&n>=1&&n<=999?n:null}
 function sortByVisitOrder(a,b){return (visitNumber(a)??100000)-(visitNumber(b)??100000)||a.floor-b.floor||a.booth.localeCompare(b.booth,'ja')}
 function refreshDetailActions(st){
@@ -181,8 +196,8 @@ function render(){
  }
  if(tab==='list'||tab==='fav'){
   $('entries').innerHTML=res.length?res.map(s=>{
-   const n=visitNumber(s);
-   return `<button class="entry" data-name="${esc(s.name)}" data-booth="${esc(s.booth)}"><span style="display:flex;align-items:center">${n?`<span class="listBadge" aria-label="訪問順 ${n}">${n}</span>`:''}<span><b>${state(s).fav?'★ ':''}${esc(s.name)}</b><small>${esc(s.category)}${tab==='fav'&&!n?' ・ 訪問順未設定':''}</small></span></span><span class="code">${floor}F ${esc(s.booth)}</span></button>`;
+   const n=visitNumber(s),attendance=shopAttendance(s);
+   return `<button class="entry" data-name="${esc(s.name)}" data-booth="${esc(s.booth)}"><span class="entryMain">${n?`<span class="listBadge" aria-label="訪問順 ${n}">${n}</span>`:''}<span class="entryText"><b>${state(s).fav?'★ ':''}${esc(s.name)}</b><span class="entryMeta"><span class="dayPill ${attendance.css}" aria-label="出展日：${esc(attendance.text)}">${esc(attendance.text)}</span><small>${esc(s.category)}${tab==='fav'&&!n?' ・ 訪問順未設定':''}</small></span></span></span><span class="code">${floor}F ${esc(s.booth)}</span></button>`;
   }).join(''):'<div class="nohits">該当するお店がないよ。日付・階を確認してね。</div>';
  }
 }
